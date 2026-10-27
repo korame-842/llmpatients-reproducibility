@@ -1,0 +1,38 @@
+name: virtual-patient-review-app
+services:
+  postgres:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: reviewer-demo-password
+      POSTGRES_DB: postgres
+    ports:
+      - "127.0.0.1:${REVIEW_DB_PORT:-16543}:5432"
+    volumes:
+      - review-postgres:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  app:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://postgres:reviewer-demo-password@postgres:5432/postgres
+      AUTH_SECRET: reviewer-demo-auth-secret-0000000000000000
+      NEXTAUTH_SECRET: reviewer-demo-auth-secret-0000000000000000
+      NEXTAUTH_URL: http://localhost:${REVIEW_APP_PORT:-18080}
+      API: ${API:-local}
+      API_BASE_URL: ${API_BASE_URL:-http://host.docker.internal:8000}
+      API_INITIALIZE_PATIENT_ENDPOINT: /patients
+      TTS_PROVIDER: none
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "127.0.0.1:${REVIEW_APP_PORT:-18080}:8080"
+    command: ["sh", "-c", "pnpm db:migrate && pnpm db:seed && pnpm start"]
+volumes:
+  review-postgres:

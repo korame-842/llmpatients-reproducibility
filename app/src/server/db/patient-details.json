@@ -1,0 +1,446 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Structured Psychological Assessment Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "demographic_sociocultural_information": {
+      "type": "object",
+      "title": "Informazioni Demografiche e Socioculturali",
+      "additionalProperties": false,
+      "properties": {
+        "age": {
+          "type": "string",
+          "title": "Eta"
+        },
+        "gender": {
+          "type": "string",
+          "title": "Genere"
+        },
+        "marital_status": {
+          "type": "string",
+          "title": "Stato civile"
+        },
+        "cultural_background": {
+          "type": "string",
+          "title": "Background culturale"
+        },
+        "religious_beliefs": {
+          "type": "string",
+          "title": "Credenze religiose"
+        },
+        "spoken_language": {
+          "type": "string",
+          "title": "Lingua parlata"
+        },
+        "migration_status": {
+          "type": "string",
+          "title": "Stato migratorio"
+        }
+      }
+    },
+    "family_social_history": {
+      "type": "object",
+      "title": "Storia Contesto Familiare e Sociale",
+      "additionalProperties": false,
+      "properties": {
+        "developmental_family_dynamics": {
+          "type": "string",
+          "title": "Dinamiche familiari in eta evolutiva"
+        },
+        "current_parent_relationships": {
+          "type": "string",
+          "title": "Relazioni attuali con i genitori"
+        },
+        "childhood_experiences": {
+          "type": "string",
+          "title": "Esperienze infantili"
+        },
+        "abuse_history": {
+          "type": "string",
+          "title": "Storia di abusi"
+        }
+      }
+    },
+    "family_social_context": {
+      "type": "object",
+      "title": "Contesto Familiare e Sociale",
+      "additionalProperties": false,
+      "properties": {
+        "social_support_overview": {
+          "type": "string",
+          "title": "Supporto sociale"
+        },
+        "support_network": {
+          "type": "string",
+          "title": "Rete di supporto"
+        }
+      }
+    },
+    "education_and_employment": {
+      "type": "object",
+      "title": "Formazione e Occupazione",
+      "additionalProperties": false,
+      "properties": {
+        "education_level": {
+          "type": "string",
+          "title": "Livello di istruzione"
+        },
+        "employment_history": {
+          "type": "string",
+          "title": "Storia lavorativa"
+        },
+        "housing_stability": {
+          "type": "string",
+          "title": "Stabilita abitativa"
+        },
+        "financial_situation": {
+          "type": "string",
+          "title": "Situazione finanziaria"
+        },
+        "hobbies_interests": {
+          "type": "string",
+          "title": "Hobby e interessi"
+        }
+      }
+    },
+    "psychological_profile_and_cognitive_functioning": {
+      "type": "object",
+      "title": "Profilo Psicologico e Funzionamento Cognitivo",
+      "additionalProperties": false,
+      "properties": {
+        "current_and_past_psychiatric_diagnoses": {
+          "type": "string",
+          "title": "Diagnosi psichiatriche in corso e pregresse"
+        },
+        "main_symptoms": {
+          "type": "string",
+          "title": "Sintomi principali"
+        },
+        "emotional_reactions_and_mood": {
+          "type": "string",
+          "title": "Reazioni emotive e area dell'umore"
+        },
+        "auto_hetero_directed_aggression": {
+          "type": "string",
+          "title": "Aggressivita auto ed etero diretta"
+        },
+        "self_perception_and_identity": {
+          "type": "string",
+          "title": "Autopercezione e identita"
+        },
+        "psychiatric_comorbidities": {
+          "type": "string",
+          "title": "Comorbidita psichiatriche"
+        },
+        "self_esteem": {
+          "type": "string",
+          "title": "Autostima"
+        },
+        "sense_of_self_and_others": {
+          "type": "string",
+          "title": "Senso di se e degli altri"
+        },
+        "identity_disturbances": {
+          "type": "string",
+          "title": "Disturbi dell'identita"
+        },
+        "cognitive_style": {
+          "type": "string",
+          "title": "Stile cognitivo"
+        },
+        "cognitive_schemas": {
+          "type": "string",
+          "title": "Schemi cognitivi"
+        },
+        "attachment_style": {
+          "type": "string",
+          "title": "Stile di attaccamento"
+        },
+        "executive_functioning": {
+          "type": "string",
+          "title": "Funzionamento esecutivo"
+        },
+        "memory": {
+          "type": "string",
+          "title": "Memoria"
+        },
+        "attention_and_concentration": {
+          "type": "string",
+          "title": "Attenzione e concentrazione"
+        },
+        "sensory_perception": {
+          "type": "string",
+          "title": "Percezione sensoriale"
+        },
+        "higher_cognitive_functions": {
+          "type": "string",
+          "title": "Funzioni cognitive superiori"
+        }
+      }
+    },
+    "coping_mechanisms_and_defenses": {
+      "type": "object",
+      "title": "Meccanismi di Coping e Difese",
+      "additionalProperties": false,
+      "properties": {
+        "coping_strategies": {
+          "type": "string",
+          "title": "Strategie di coping"
+        },
+        "defense_mechanisms": {
+          "type": "string",
+          "title": "Meccanismi di difesa"
+        }
+      }
+    },
+    "dysfunctional_behaviors_and_risk": {
+      "type": "object",
+      "title": "Condotte Disfunzionali e Comportamenti a Rischio",
+      "additionalProperties": false,
+      "properties": {
+        "self_harm_and_suicidality": {
+          "type": "string",
+          "title": "Autolesionismo e suicidalita"
+        },
+        "substance_abuse": {
+          "type": "string",
+          "title": "Abuso di sostanze"
+        },
+        "avoidance_behaviors": {
+          "type": "string",
+          "title": "Evitamento"
+        },
+        "impulsive_and_risky_behaviors": {
+          "type": "string",
+          "title": "Comportamenti impulsivi e a rischio"
+        },
+        "morality": {
+          "type": "string",
+          "title": "Moralita"
+        }
+      }
+    },
+    "social_relationships_and_interactions": {
+      "type": "object",
+      "title": "Relazioni Sociali e Interazioni",
+      "additionalProperties": false,
+      "properties": {
+        "friendships": {
+          "type": "string",
+          "title": "Amicizie"
+        },
+        "romantic_relationships": {
+          "type": "string",
+          "title": "Relazioni romantiche"
+        },
+        "sexual_relationships": {
+          "type": "string",
+          "title": "Relazioni sessuali"
+        },
+        "family_interactions": {
+          "type": "string",
+          "title": "Interazioni familiari"
+        },
+        "peer_and_colleague_relationships": {
+          "type": "string",
+          "title": "Relazioni con i coetanei e i colleghi"
+        },
+        "social_media_behavior": {
+          "type": "string",
+          "title": "Comportamento sui social media"
+        }
+      }
+    },
+    "treatments_and_interventions": {
+      "type": "object",
+      "title": "Trattamenti e Interventi",
+      "additionalProperties": false,
+      "properties": {
+        "previous_therapeutic_experiences": {
+          "type": "string",
+          "title": "Esperienze terapeutiche pregresse"
+        },
+        "treatment_progress_and_resistance": {
+          "type": "string",
+          "title": "Progresso e resistenza"
+        },
+        "therapeutic_goals": {
+          "type": "string",
+          "title": "Obiettivi terapeutici"
+        },
+        "pharmacological_history": {
+          "type": "string",
+          "title": "Storia farmacologica"
+        },
+        "medication_response": {
+          "type": "string",
+          "title": "Risposta ai farmaci"
+        },
+        "hospitalization_history": {
+          "type": "string",
+          "title": "Pregressi ricoveri"
+        },
+        "hospitalization_details": {
+          "type": "string",
+          "title": "Storia di ospedalizzazioni"
+        },
+        "emergency_room_visits": {
+          "type": "string",
+          "title": "Accessi visite al pronto soccorso"
+        },
+        "historical_psychiatric_diagnoses": {
+          "type": "string",
+          "title": "Diagnosi psichiatriche pregresse"
+        }
+      }
+    },
+    "clinical_judgment_and_decision_capacities": {
+      "type": "object",
+      "title": "Giudizio Clinico e Capacita Decisionale",
+      "additionalProperties": false,
+      "properties": {
+        "judgment_capacity": {
+          "type": "string",
+          "title": "Capacita di giudizio"
+        },
+        "insight_awareness": {
+          "type": "string",
+          "title": "Consapevolezza del proprio stato (insight)"
+        },
+        "impulse_control": {
+          "type": "string",
+          "title": "Controllo degli impulsi"
+        },
+        "self_control": {
+          "type": "string",
+          "title": "Autocontrollo"
+        }
+      }
+    },
+    "resilience_and_psychological_wellbeing": {
+      "type": "object",
+      "title": "Resilienza e Benessere Psicologico",
+      "additionalProperties": false,
+      "properties": {
+        "psychological_resilience": {
+          "type": "string",
+          "title": "Resilienza psicologica"
+        },
+        "self_compassion": {
+          "type": "string",
+          "title": "Autocompassione"
+        },
+        "life_satisfaction": {
+          "type": "string",
+          "title": "Soddisfazione della vita"
+        },
+        "personal_growth": {
+          "type": "string",
+          "title": "Crescita personale"
+        },
+        "sense_of_coherence": {
+          "type": "string",
+          "title": "Senso di coerenza"
+        },
+        "sense_of_control_or_empowerment": {
+          "type": "string",
+          "title": "Senso di controllo o empowerment"
+        },
+        "hope_for_future": {
+          "type": "string",
+          "title": "Speranza per il futuro"
+        },
+        "long_term_life_goals": {
+          "type": "string",
+          "title": "Obiettivi di vita a lungo termine"
+        }
+      }
+    },
+    "medical_and_physical_history": {
+      "type": "object",
+      "title": "Storia Medica e Fisica",
+      "additionalProperties": false,
+      "properties": {
+        "pre_existing_medical_conditions": {
+          "type": "string",
+          "title": "Condizioni mediche preesistenti"
+        },
+        "pharmacological_treatments": {
+          "type": "string",
+          "title": "Trattamenti farmacologici"
+        },
+        "allergies": {
+          "type": "string",
+          "title": "Allergie"
+        },
+        "lifestyle": {
+          "type": "string",
+          "title": "Stile di vita"
+        },
+        "general_physical_health": {
+          "type": "string",
+          "title": "Salute fisica generale"
+        },
+        "sleep_patterns": {
+          "type": "string",
+          "title": "Schemi di sonno"
+        },
+        "eating_habits": {
+          "type": "string",
+          "title": "Abitudini alimentari"
+        }
+      }
+    },
+    "social_and_environmental_context": {
+      "type": "object",
+      "title": "Contesto Sociale e Ambientale",
+      "additionalProperties": false,
+      "properties": {
+        "community_social_support": {
+          "type": "string",
+          "title": "Supporto sociale"
+        },
+        "housing_conditions": {
+          "type": "string",
+          "title": "Condizioni abitative"
+        },
+        "social_security": {
+          "type": "string",
+          "title": "Sicurezza sociale"
+        },
+        "social_cohesion": {
+          "type": "string",
+          "title": "Coesione sociale"
+        },
+        "social_determinants_of_mental_health": {
+          "type": "string",
+          "title": "Determinanti sociali della salute mentale"
+        }
+      }
+    },
+    "test_session_behavior": {
+      "type": "object",
+      "title": "Comportamento Durante la Somministrazione del Test",
+      "additionalProperties": false,
+      "properties": {
+        "recurring_dynamics": {
+          "type": "string",
+          "title": "Dinamiche ricorrenti (transfert e controtransfert; es. Manipolativita, sottomissione, svalutazione, evitamento etc.)"
+        },
+        "prevalent_emotions": {
+          "type": "string",
+          "title": "Emozioni prevalenti"
+        },
+        "speech_characteristics": {
+          "type": "string",
+          "title": "Tono, fluenza, coerenza, contenuto e ritmo dell'eloquio"
+        },
+        "nonverbal_communication": {
+          "type": "string",
+          "title": "Contatto visivo, postura, gestualita"
+        }
+      }
+    }
+  }
+}

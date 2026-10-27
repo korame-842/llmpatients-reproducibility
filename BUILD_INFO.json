@@ -1,0 +1,7 @@
+{
+  "edition": "public-numerical-replication-2026-10-27",
+  "source_archive_sha256": "c5f8ed77bd8600be8f6bd26f599e20aa851431d07e8d605781605b5174ab51d6",
+  "source_snapshot": "Anonymized submission archive dated 2026-10-19",
+  "modified": "Public projections, verification entry point, documentation and original demo fixture",
+  "raw_generation_reproducibility": "Requires separately authorized study profiles, instrument definitions and original run artifacts; these are not distributed"
+}

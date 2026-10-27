@@ -1,0 +1,16 @@
+{
+  "ratings": [
+    {
+      "id": "fbf7f32ac8a84a65a7f5dbfd978a1042",
+      "category": "contradictory",
+      "fields": {
+        "current_venue": {
+          "status": "ambiguous"
+        },
+        "former_venue": {
+          "status": "ambiguous"
+        }
+      }
+    }
+  ]
+}

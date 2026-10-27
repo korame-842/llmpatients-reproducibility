@@ -1,0 +1,35 @@
+{
+  "identifiers": {
+    "patientId": "demo_original_001",
+    "externalPatientId": "demo_original_001"
+  },
+  "profile": {
+    "name": "Demo Participant",
+    "age": 34,
+    "gender": "other",
+    "smallDescription": "Original fictional example for checking software connections."
+  },
+  "chat": {
+    "welcomeMessage": "Hello. I would like to practice explaining my plans for a community garden."
+  },
+  "therapy": {
+    "objectives": [
+      "Practice listening and asking clear questions"
+    ],
+    "difficulty": 1,
+    "estimatedDuration": 15
+  },
+  "clinical": {
+    "clinicalCase": "This fictional adult is planning a community garden and wants to explain a weekly schedule clearly. No diagnosis, treatment or clinical history is assigned.",
+    "details": {
+      "demographicAndSocioculturalInformation": {
+        "age": 34,
+        "gender": "other",
+        "spokenLanguage": "english"
+      },
+      "educationAndEmployment": {
+        "hobbiesAndInterests": "Planning a community garden."
+      }
+    }
+  }
+}

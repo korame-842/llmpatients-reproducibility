@@ -1,0 +1,15 @@
+services:
+  app:
+    environment:
+      GOOGLE_CLOUD_PROJECT: ${GOOGLE_CLOUD_PROJECT:?Set GOOGLE_CLOUD_PROJECT for the detector}
+      GOOGLE_CLOUD_LOCATION: ${GOOGLE_CLOUD_LOCATION:-global}
+      GOOGLE_GENAI_USE_VERTEXAI: "true"
+      VERTEX_MODEL_ID: ${VERTEX_MODEL_ID:?Set VERTEX_MODEL_ID to an accessible detector model}
+      GOOGLE_APPLICATION_CREDENTIALS: /run/secrets/vertex-credentials.json
+    volumes:
+      - type: bind
+        source: ${GOOGLE_APPLICATION_CREDENTIALS:?Set GOOGLE_APPLICATION_CREDENTIALS to your local credential-file path}
+        target: /run/secrets/vertex-credentials.json
+        read_only: true
+        bind:
+          create_host_path: false

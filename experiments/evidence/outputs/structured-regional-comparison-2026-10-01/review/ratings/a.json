@@ -1,0 +1,1594 @@
+{
+  "ratings": [
+    {
+      "id": "C001",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": false,
+          "field_correct": {
+            "current_venue": false,
+            "former_venue": false
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": false,
+          "field_correct": {
+            "surname_or_not_established": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": false,
+          "field_correct": {
+            "current_venue": false,
+            "former_venue": false
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": true,
+          "field_correct": {
+            "notebook_title": true
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": true,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": false,
+          "field_correct": {
+            "current_venue": false,
+            "former_venue": false
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": true
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": true,
+          "field_correct": {
+            "notebook_title": true
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": true,
+            "current": false,
+            "former": false,
+            "proposal_only": true
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C017",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C018",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C020",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": true
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C021",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": true,
+          "field_correct": {
+            "notebook_title": true
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": true,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C022",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": true,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": true,
+          "field_correct": {
+            "completed": true,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": false,
+          "field_correct": {
+            "current_venue": false,
+            "former_venue": false
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C024",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": true,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": true,
+          "field_correct": {
+            "completed": true,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C025",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C028",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": true,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": true,
+          "field_correct": {
+            "completed": true,
+            "planned_not_completed": true
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C029",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": true
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": true,
+          "field_correct": {
+            "current_venue": true,
+            "former_venue": true
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "C030",
+      "categories": [
+        {
+          "category": "persistent_identity",
+          "pass": true,
+          "field_correct": {
+            "name": true,
+            "age": true
+          }
+        },
+        {
+          "category": "distant_stable_fact",
+          "pass": false,
+          "field_correct": {
+            "notebook_title": false
+          }
+        },
+        {
+          "category": "correction_and_proposal",
+          "pass": false,
+          "field_correct": {
+            "partner": false,
+            "current": false,
+            "former": false,
+            "proposal_only": false
+          }
+        },
+        {
+          "category": "explicit_replacement",
+          "pass": false,
+          "field_correct": {
+            "current_venue": false,
+            "former_venue": false
+          }
+        },
+        {
+          "category": "completed_versus_planned",
+          "pass": false,
+          "field_correct": {
+            "completed": false,
+            "planned_not_completed": false
+          }
+        },
+        {
+          "category": "absent_fact_abstention",
+          "pass": true,
+          "field_correct": {
+            "surname_or_not_established": true
+          }
+        }
+      ]
+    }
+  ]
+}

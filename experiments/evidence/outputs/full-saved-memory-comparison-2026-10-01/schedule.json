@@ -1,0 +1,424 @@
+{
+  "jobs": [
+    {
+      "job_id": "001",
+      "patient_id": "alex_carter_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "112"
+      ]
+    },
+    {
+      "job_id": "002",
+      "patient_id": "alex_carter_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "014",
+        "030",
+        "045",
+        "052",
+        "058",
+        "083",
+        "104"
+      ]
+    },
+    {
+      "job_id": "003",
+      "patient_id": "jason_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "007",
+        "027",
+        "028",
+        "036",
+        "056",
+        "069",
+        "070"
+      ]
+    },
+    {
+      "job_id": "004",
+      "patient_id": "crystal_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "018",
+        "040",
+        "047",
+        "049",
+        "085",
+        "097",
+        "102"
+      ]
+    },
+    {
+      "job_id": "005",
+      "patient_id": "juanita_delgado_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "111"
+      ]
+    },
+    {
+      "job_id": "006",
+      "patient_id": "crystal_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "012",
+        "015",
+        "044",
+        "063",
+        "075",
+        "098",
+        "100"
+      ]
+    },
+    {
+      "job_id": "007",
+      "patient_id": "juanita_delgado_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "011",
+        "019",
+        "025",
+        "034",
+        "038",
+        "090",
+        "092"
+      ]
+    },
+    {
+      "job_id": "008",
+      "patient_id": "alex_carter_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "117"
+      ]
+    },
+    {
+      "job_id": "009",
+      "patient_id": "jason_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "113"
+      ]
+    },
+    {
+      "job_id": "010",
+      "patient_id": "jason_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "006",
+        "022",
+        "043",
+        "057",
+        "072",
+        "074",
+        "089"
+      ]
+    },
+    {
+      "job_id": "011",
+      "patient_id": "daniel_isherwood_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "115"
+      ]
+    },
+    {
+      "job_id": "012",
+      "patient_id": "daniel_isherwood_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "109"
+      ]
+    },
+    {
+      "job_id": "013",
+      "patient_id": "jason_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "118"
+      ]
+    },
+    {
+      "job_id": "014",
+      "patient_id": "jason_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "114"
+      ]
+    },
+    {
+      "job_id": "015",
+      "patient_id": "juanita_delgado_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "005",
+        "016",
+        "023",
+        "032",
+        "041",
+        "081",
+        "101"
+      ]
+    },
+    {
+      "job_id": "016",
+      "patient_id": "crystal_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "116"
+      ]
+    },
+    {
+      "job_id": "017",
+      "patient_id": "daniel_isherwood_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "001",
+        "010",
+        "020",
+        "021",
+        "046",
+        "066",
+        "076"
+      ]
+    },
+    {
+      "job_id": "018",
+      "patient_id": "daniel_isherwood_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "013",
+        "054",
+        "060",
+        "073",
+        "080",
+        "091",
+        "096"
+      ]
+    },
+    {
+      "job_id": "019",
+      "patient_id": "daniel_isherwood_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "108"
+      ]
+    },
+    {
+      "job_id": "020",
+      "patient_id": "crystal_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "024",
+        "039",
+        "062",
+        "068",
+        "078",
+        "079",
+        "084"
+      ]
+    },
+    {
+      "job_id": "021",
+      "patient_id": "alex_carter_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "110"
+      ]
+    },
+    {
+      "job_id": "022",
+      "patient_id": "alex_carter_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "009",
+        "051",
+        "067",
+        "071",
+        "086",
+        "088",
+        "093"
+      ]
+    },
+    {
+      "job_id": "023",
+      "patient_id": "daniel_isherwood_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "029",
+        "037",
+        "042",
+        "050",
+        "064",
+        "065",
+        "082"
+      ]
+    },
+    {
+      "job_id": "024",
+      "patient_id": "juanita_delgado_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "start",
+      "paired_baseline_job_ids": [
+        "119"
+      ]
+    },
+    {
+      "job_id": "025",
+      "patient_id": "juanita_delgado_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "106"
+      ]
+    },
+    {
+      "job_id": "026",
+      "patient_id": "alex_carter_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "026",
+        "031",
+        "035",
+        "048",
+        "055",
+        "077",
+        "099"
+      ]
+    },
+    {
+      "job_id": "027",
+      "patient_id": "crystal_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "107"
+      ]
+    },
+    {
+      "job_id": "028",
+      "patient_id": "jason_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "002",
+        "004",
+        "017",
+        "033",
+        "059",
+        "094",
+        "095"
+      ]
+    },
+    {
+      "job_id": "029",
+      "patient_id": "crystal_smith_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 1200000,
+      "mode": "full_saved_memory",
+      "fact_position": "end",
+      "paired_baseline_job_ids": [
+        "120"
+      ]
+    },
+    {
+      "job_id": "030",
+      "patient_id": "juanita_delgado_001",
+      "arm": "full_saved_memory",
+      "target_tokens": 64000,
+      "mode": "full_saved_memory",
+      "fact_position": "middle",
+      "paired_baseline_job_ids": [
+        "003",
+        "008",
+        "053",
+        "061",
+        "087",
+        "103",
+        "105"
+      ]
+    }
+  ]
+}

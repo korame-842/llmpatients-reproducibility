@@ -1,0 +1,132 @@
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { Loader2, LogOut } from "lucide-react";
+import { Button } from "~/components/ui/button";
+import { Badge } from "~/components/ui/badge";
+import { useAppToast } from "~/hooks/useAppToast";
+import { useLogout } from "~/hooks/useLogout";
+import type { User, ImpersonationContext } from "~/types";
+
+type LayoutType = "dashboard" | "home";
+
+interface ShadcnNavbarProps {
+  user?: User;
+  impersonation?: ImpersonationContext;
+  layoutType: LayoutType;
+  currentPage?: string;
+}
+
+export function ShadcnNavbar({
+  user,
+  impersonation,
+  layoutType: _layoutType,
+  currentPage: _currentPage = "",
+}: ShadcnNavbarProps) {
+  const { error } = useAppToast();
+  const { isLoggingOut, logout } = useLogout();
+
+  const displayUser = impersonation?.isImpersonating
+    ? {
+      id: impersonation.targetUserId,
+      name: impersonation.targetUserName,
+      email: impersonation.targetUserEmail,
+      role: "user" as const,
+    }
+    : user;
+
+
+  const handleLogout = async () => {
+    const result = await logout({ callbackUrl: "/" });
+
+    if (!result.ok) {
+      error(
+        "Sign out failed",
+        "The session is still active. Please try again.",
+      );
+    }
+  };
+
+
+
+
+  const renderUserMenu = () => {
+    if (!displayUser) return null;
+
+    return (
+      <div className="flex items-center space-x-2">
+        <span className="hidden max-w-32 truncate text-sm font-medium text-muted-foreground md:inline">
+          {displayUser.name ?? displayUser.email}
+        </span>
+        <Badge variant={displayUser.role === "admin" ? "admin" : "user"}>
+          {displayUser.role === "admin" ? "Admin" : "User"}
+        </Badge>
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={handleLogout}
+          disabled={isLoggingOut}
+          title="Sign out"
+        >
+          {isLoggingOut ? (
+            <Loader2 className="h-4 w-4 animate-spin" />
+          ) : (
+            <LogOut className="h-4 w-4" />
+          )}
+        </Button>
+      </div>
+    );
+  };
+
+
+  const renderAuthButtons = () => (
+    <div className="flex items-center space-x-2">
+      <Button
+        variant="outline"
+        size="sm"
+        asChild
+        className="border-2 border-accent bg-background text-foreground hover:bg-accent hover:text-accent-foreground transition-colors"
+      >
+        <Link href="/login">Sign in</Link>
+      </Button>
+      <Button size="sm" asChild>
+        <Link href="/register">Sign up</Link>
+      </Button>
+    </div>
+  );
+
+
+  return (
+    <header
+      className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border/50"
+    >
+      <div className="flex h-16 items-center px-4 w-full">
+        { }
+        <div className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/images/logo.png"
+              alt="Virtual Patient Review"
+              width={32}
+              height={32}
+              className="rounded-lg"
+              style={{ width: 32, height: 32 }}
+            />
+            <span className="hidden text-lg font-bold sm:inline-block">
+              Virtual Patient Review
+            </span>
+          </Link>
+        </div>
+
+        { }
+        <div className="flex-1" />
+
+        { }
+        <div className="flex items-center space-x-2">
+          {displayUser ? renderUserMenu() : renderAuthButtons()}
+        </div>
+      </div>
+    </header>
+  );
+}

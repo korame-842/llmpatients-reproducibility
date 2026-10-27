@@ -1,0 +1,1015 @@
+[
+  {
+    "transcriptId": "T001",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          2
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          6,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T002",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          3
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T003",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T004",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          7,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          7,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T005",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": []
+  },
+  {
+    "transcriptId": "T006",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          6,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          5,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          7,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T007",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          5,
+          6,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T008",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          6,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          4
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          7,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T009",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          12,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T010",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          3
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T011",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          2,
+          3
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          3,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T012",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          4
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T013",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          6,
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T014",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          6,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          7,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T015",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          5
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T016",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          9,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T017",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          1,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          3,
+          5
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          6,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          12,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T018",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          6,
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          3
+        ]
+      },
+      {
+        "therapistTurns": [
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T019",
+    "scriptVariant": "appropriate",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          7,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6,
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          5,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          10,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          12,
+          13
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "transcriptId": "T020",
+    "scriptVariant": "seeded_misstep",
+    "summary": {
+      "therapistTurnCount": 15
+    },
+    "detectedCategories": [
+      {
+        "therapistTurns": [
+          9
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          15
+        ]
+      },
+      {
+        "therapistTurns": [
+          6
+        ]
+      },
+      {
+        "therapistTurns": [
+          7
+        ]
+      },
+      {
+        "therapistTurns": [
+          1,
+          3
+        ]
+      },
+      {
+        "therapistTurns": [
+          10
+        ]
+      },
+      {
+        "therapistTurns": [
+          2,
+          14
+        ]
+      },
+      {
+        "therapistTurns": [
+          11
+        ]
+      },
+      {
+        "therapistTurns": [
+          12
+        ]
+      },
+      {
+        "therapistTurns": [
+          4,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          7,
+          8
+        ]
+      },
+      {
+        "therapistTurns": [
+          13
+        ]
+      }
+    ]
+  }
+]

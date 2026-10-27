@@ -1,0 +1,169 @@
+@theme {
+  /* Brand Colors - Mapped to Tailwind Colors */
+  --color-primary-green: var(--color-lime-500);
+  /* Accessible on dark (AAA) */
+  --color-primary-yellow: var(--color-amber-500);
+  --color-primary-violet: var(--color-violet-300);
+  --color-brand-primary: var(--color-primary-green);
+  --color-brand-secondary: var(--color-primary-yellow);
+  --color-brand-tertiary: var(--color-primary-violet);
+
+  /* Backgrounds & Surfaces - Using Stone (Warm Gray) Palette */
+  --color-background-dark: var(--color-stone-900);
+  --color-navbar-dark: var(--color-stone-950);
+  --color-page-background: var(--color-stone-950);
+
+  --color-surface-base: var(--color-stone-950);
+  --color-surface-primary: var(--color-stone-900);
+  --color-surface-secondary: var(--color-stone-800);
+  --color-surface-tertiary: var(--color-stone-700);
+  --color-surface-raised: var(--color-surface-primary);
+  --color-surface-muted: var(--color-surface-secondary);
+  --color-surface-subtle: var(--color-surface-tertiary);
+
+  /* Overlays */
+  --color-overlay-backdrop: color-mix(in srgb, var(--color-stone-950) 80%, transparent);
+  --color-input-background: var(--color-stone-900);
+  --color-input-background-hover: var(--color-stone-800);
+  --color-input-background-focus: var(--color-stone-800);
+  --color-input-background-disabled: var(--color-stone-950);
+
+  /* Text Colors */
+  --color-text-primary: var(--color-stone-50);
+  /* High contrast (AAA vs 950/900) */
+  --color-text-secondary: var(--color-stone-300);
+  /* Good contrast (AA/AAA vs 950) */
+  --color-text-tertiary: var(--color-stone-300);
+  --color-text-inverse: var(--color-stone-950);
+  --color-text-muted: var(--color-stone-300);
+  /* Promoted to 400 for AAA (10:1) */
+  --color-text-placeholder: var(--color-stone-500);
+
+  /* Status Colors (Lighter for AAA contrast on dark bg) */
+  --color-success: var(--color-emerald-400);
+  --color-success-light: var(--color-emerald-300);
+  --color-success-dark: var(--color-emerald-500);
+
+  --color-warning: var(--color-amber-400);
+  --color-warning-light: var(--color-amber-300);
+  --color-warning-dark: var(--color-amber-500);
+
+  --color-error: var(--color-red-300);
+  /* Lighter for AAA text contrast */
+  --color-error-light: var(--color-red-200);
+  --color-error-dark: var(--color-red-400);
+
+  --color-info: var(--color-sky-400);
+  --color-info-light: var(--color-sky-300);
+  --color-info-dark: var(--color-sky-500);
+
+  /* Utilities */
+  --color-skeleton-base: var(--color-stone-800);
+  --color-skeleton-accent: var(--color-stone-700);
+
+  /* Gray Scale (Mapped manually if needed/used directly, or aliased) */
+  --color-gray-50: var(--color-stone-50);
+  --color-gray-100: var(--color-stone-100);
+  --color-gray-200: var(--color-stone-200);
+  --color-gray-300: var(--color-stone-300);
+  --color-gray-400: var(--color-stone-400);
+  --color-gray-500: var(--color-stone-500);
+  --color-gray-600: var(--color-stone-600);
+  --color-gray-700: var(--color-stone-700);
+  --color-gray-800: var(--color-stone-800);
+  --color-gray-900: var(--color-stone-900);
+
+  /* Borders */
+  --color-border-primary: var(--color-stone-800);
+  --color-border-secondary: var(--color-stone-800);
+  --color-border-muted: var(--color-stone-800);
+  --color-border-strong: var(--color-stone-700);
+  --color-border-focus: var(--color-primary-green);
+  --color-border-error: var(--color-error);
+  --color-border-success: var(--color-success);
+
+  --color-focus-ring: color-mix(in srgb, var(--color-lime-500) 50%, transparent);
+  --color-focus-ring-strong: var(--color-lime-600);
+
+  /* Chat Bubbles */
+  --color-chat-bubble-patient: var(--color-lime-900);
+  --color-chat-bubble-user: var(--color-stone-800);
+}
+
+
+:root {
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  --radius: 0.625rem;
+  --radius-sm: calc(var(--radius) - 0.25rem);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 0.25rem);
+  --radius-xl: calc(var(--radius) + 0.5rem);
+  --radius-full: 9999px;
+
+  --component-padding: var(--space-md);
+  --component-margin: var(--space-sm);
+  --component-gap: var(--space-md);
+
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow: 300ms ease;
+  --transition-bounce: 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  --z-toast: 1080;
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@media (prefers-contrast: high) {
+  :root {
+    --color-gray-400: var(--color-stone-600);
+    --color-gray-600: var(--color-stone-800);
+    --color-gray-800: black;
+  }
+}
+
+.difficulty-dots {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.difficulty-easy {
+  color: var(--color-success) !important;
+}
+
+.difficulty-medium {
+  color: var(--color-warning) !important;
+}
+
+.difficulty-hard {
+  color: var(--color-error) !important;
+}
+
+.badge-admin {
+  background-color: var(--color-primary-violet) !important;
+}
+
+
+.badge-user {
+  background-color: var(--color-gray-500) !important;
+}

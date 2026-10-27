@@ -1,0 +1,71 @@
+{
+  "name": "Virtual Patient Review",
+  "short_name": "Patient Review",
+  "description": "Virtual patient simulation for healthcare education and psychotherapy training.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0a09",
+  "theme_color": "#84cc16",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": [
+    "education",
+    "medical",
+    "health"
+  ],
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "235x258",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "235x258",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "235x258",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "235x258",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Explore Patients",
+      "short_name": "Patients",
+      "description": "Open the virtual patient catalogue",
+      "url": "/explore-patients",
+      "icons": [
+        {
+          "src": "/images/logo.png",
+          "sizes": "235x258"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open your personal dashboard",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/images/logo.png",
+          "sizes": "235x258"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,1866 @@
+{
+  "version": 1,
+  "scope": "Public edition: exact integrity of supplied files; not evidence of access to withheld originals",
+  "files": {
+    ".gitignore": {
+      "bytes": 367,
+      "sha256": "95d5ff6ca165c25819ecdf74b2fa47cf0ba481fd70b487503d779112ac124c63"
+    },
+    "BUILD_INFO.json": {
+      "bytes": 491,
+      "sha256": "ae884e9b9b2ec82258c3c6b2ff281ce08a111173162eec8ed757dd0c83e5b4b9"
+    },
+    "LICENSE": {
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "README.md": {
+      "bytes": 3166,
+      "sha256": "a0c665a430d9d49b5ff90277f3b37270006e3e685df0e2a1d3cf9be7b0d264bd"
+    },
+    "RUNNING.md": {
+      "bytes": 5155,
+      "sha256": "3f7ab22da5f240dfa74ef5c82441d3268868e9bbc627f5d7ef0a25a366ba2f59"
+    },
+    "THIRD_PARTY_MATERIALS.md": {
+      "bytes": 1826,
+      "sha256": "8821b747ac74752e5bcbeae4d8f83e19eb5be3d2155d082debd2f871b462cfad"
+    },
+    "app/.dockerignore": {
+      "bytes": 74,
+      "sha256": "afef4125df4d8e07ada103b75adbf4b824f95a9ef7de7d49382fc0f47365e3f2"
+    },
+    "app/.env.example": {
+      "bytes": 929,
+      "sha256": "41579750c66c086b8d1908f41406b755854a18ee53cd029b47c406b0bfc31c90"
+    },
+    "app/.gitignore": {
+      "bytes": 92,
+      "sha256": "29462aa6901e9107b064a8937a73e78921d35e59049d5a6e0fd79bb891489b7b"
+    },
+    "app/.npmrc": {
+      "bytes": 25,
+      "sha256": "5f947ee7a93b78e2d3131807d3f9b355b5bb237b9a88b6909113f4a3fb6de740"
+    },
+    "app/Dockerfile": {
+      "bytes": 1055,
+      "sha256": "f113804e854c77f16892181050a23cc613fe652a2c41d4a130764e2f9ac2964f"
+    },
+    "app/LICENSE": {
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "app/README.md": {
+      "bytes": 1944,
+      "sha256": "30c3739ccf8a1b75dbda0b301e75ab4856dba1b96f5a5031a6b38ad773556483"
+    },
+    "app/docker-compose.vertex.yml": {
+      "bytes": 679,
+      "sha256": "4ac8d1672a40fe6a361f7834df2e68df9c77adec4a70f15492c103cdf08bc679"
+    },
+    "app/docker-compose.yml": {
+      "bytes": 1228,
+      "sha256": "7384cb4ea2803f844ed4a45da9b6880a8eee3d0247f7477e7e4bd6e5c5f78506"
+    },
+    "app/drizzle-postgres/0000_normal_saracen.sql": {
+      "bytes": 9184,
+      "sha256": "822aac27f71c51753f6ac2fbe7e659928c24b3c881821df049c050b4d2febc1a"
+    },
+    "app/drizzle-postgres/0001_stiff_molten_man.sql": {
+      "bytes": 55,
+      "sha256": "2223a7f5cd2da561b264857586ee189d5a296cf903bb8639b5ffaa0ebf09eb47"
+    },
+    "app/drizzle-postgres/0002_blushing_zombie.sql": {
+      "bytes": 1471,
+      "sha256": "96a1ea76090cc0e8775d5d41e1e473705317193e3d57b658c450be1fefdf31e7"
+    },
+    "app/drizzle-postgres/0003_windy_the_phantom.sql": {
+      "bytes": 719,
+      "sha256": "ebf269e6b3c024fe1e5e86521feedc55a606ce07c48823218a4c33fa4c7aa9df"
+    },
+    "app/drizzle-postgres/0004_mighty_warpath.sql": {
+      "bytes": 941,
+      "sha256": "8789f1a0c372d045d5ae2174e9427667502a62f5f263ac046befff9b518c18e3"
+    },
+    "app/drizzle-postgres/0005_swift_missteps.sql": {
+      "bytes": 1246,
+      "sha256": "49d1ac22e8f12366e1c4db4a28ced1a5e8b4ed2300aa920c2a9ca4beb6ac50af"
+    },
+    "app/drizzle-postgres/meta/0000_snapshot.json": {
+      "bytes": 33437,
+      "sha256": "39cec48db468fbbcaa8a11c5e53a3204b980fd797299d1db48c33f287a3db0a0"
+    },
+    "app/drizzle-postgres/meta/0001_snapshot.json": {
+      "bytes": 33292,
+      "sha256": "fd80bae2588d954bd2249274c7ec8f2c3f0d8f816e5d24e857261d299a773d80"
+    },
+    "app/drizzle-postgres/meta/0002_snapshot.json": {
+      "bytes": 35162,
+      "sha256": "c088b04ed20fb92c301c510b237c3326e92978d39682a59e1d2ca109c77ea02c"
+    },
+    "app/drizzle-postgres/meta/0003_snapshot.json": {
+      "bytes": 38437,
+      "sha256": "8c19616255b811718fbe68cff97095ca431e72002cbe3a24a9c9c23a5cab1382"
+    },
+    "app/drizzle-postgres/meta/0004_snapshot.json": {
+      "bytes": 39410,
+      "sha256": "4b4d5ac0b88cd45aa8372a8d18452915c1c12ec9fdd4a3a586d3d0ad88d85588"
+    },
+    "app/drizzle-postgres/meta/0005_snapshot.json": {
+      "bytes": 44080,
+      "sha256": "aaf289cb74d81c3996e752d9ae3eb63998b388cce83a454887df62bd0fc8b976"
+    },
+    "app/drizzle-postgres/meta/_journal.json": {
+      "bytes": 925,
+      "sha256": "73ee91a47dff1bd9cb5dd7e897740a6c3a623a514d8b460905e4d4bd1c6dab92"
+    },
+    "app/drizzle.config.ts": {
+      "bytes": 367,
+      "sha256": "25fca07a04fad9c3e90af9549c6c0043f3a0c2765cda03b9542dfdcd9212e979"
+    },
+    "app/eslint.config.js": {
+      "bytes": 2126,
+      "sha256": "9ba8e7c1f5abeafbd493573a8eb843ddd10ac2920fbc350295ffbdc085d92382"
+    },
+    "app/next.config.js": {
+      "bytes": 3691,
+      "sha256": "25d75d9e2989ecab293ef3636074cd4b31358621ebe7515d67baa1f3b5c60cb3"
+    },
+    "app/package.json": {
+      "bytes": 3143,
+      "sha256": "1d5de718df25cfd4c71fdc56ad3ecff5d41b490b4b10307638ef2e3bb53b058e"
+    },
+    "app/patients/demo_original_001.yaml": {
+      "bytes": 1024,
+      "sha256": "10e8794c26d7d71ea5103ef842b772bb95df0822da7ac6a39d1bc95b055e7d35"
+    },
+    "app/pnpm-lock.yaml": {
+      "bytes": 240069,
+      "sha256": "74b7d24eef85ef9adbdddff4faba91bac3d0b801ec88ae73e391127db7c917f0"
+    },
+    "app/postcss.config.js": {
+      "bytes": 70,
+      "sha256": "5b0bc4c78be977cd81f947fb5563aaa7cc6d451e6f1c53a3260b7656a7144d20"
+    },
+    "app/public/manifest.json": {
+      "bytes": 1570,
+      "sha256": "c3e4ceac83a07edb8edbcc1c8b096e099ef332dee9fc0cbe9fe3855f620b3772"
+    },
+    "app/public/robots.txt": {
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    "app/scripts/backend-scenario.ts": {
+      "bytes": 30496,
+      "sha256": "121bc3b2086ffbadaaab99576fc04430393d8d2772a0a1b4686d0c6699ef956a"
+    },
+    "app/scripts/seed.ts": {
+      "bytes": 22757,
+      "sha256": "ab95c97da8e613ab1cda4d485304946df87d778cc6765c80af067ab3d74c2112"
+    },
+    "app/scripts/test-backend.ts": {
+      "bytes": 2707,
+      "sha256": "797f2e2e6644116fa95387c2818cbfb5f1d881477771ece0866495660fad7e89"
+    },
+    "app/scripts/test-offline.ts": {
+      "bytes": 6014,
+      "sha256": "0ad16c5fd8316e2ee6b95414f7dc76e67b2c18c9bd85c351a9e5ecacc9e9c2f6"
+    },
+    "app/scripts/test-patient-initialization.ts": {
+      "bytes": 2500,
+      "sha256": "034ee72351a2831633816d5c1bcb06eeb529e67a971a638558107117ba3c6f6d"
+    },
+    "app/src/app/(admin)/admin/manage-users/_components/ManageUsersContent.tsx": {
+      "bytes": 7075,
+      "sha256": "b25a20c43913506c2823ab1351a3a5527f365061ccef40c9ced762e0ceb60bfd"
+    },
+    "app/src/app/(admin)/admin/manage-users/_components/ManageUsersDialogs.tsx": {
+      "bytes": 8292,
+      "sha256": "211ca872d0769f5a16be23dc73765cea796a78838d74dc02baf497f9718d56d4"
+    },
+    "app/src/app/(admin)/admin/manage-users/_components/ManageUsersLoading.tsx": {
+      "bytes": 3349,
+      "sha256": "2e145afa2cabafaf7b02cd76da3b1d3781303f80840004f876620dbc8461eb77"
+    },
+    "app/src/app/(admin)/admin/manage-users/_components/ManageUsersSections.tsx": {
+      "bytes": 6404,
+      "sha256": "f547c73cc5431b8fbd3624d83b1ecf9227fa1850ccc13096ab59bd8fc5374937"
+    },
+    "app/src/app/(admin)/admin/manage-users/_components/manage-users-types.ts": {
+      "bytes": 1048,
+      "sha256": "be0042a6c4139541dfce93a29f0bc1e61d8ce8c97b1367580fbcfaa430952c07"
+    },
+    "app/src/app/(admin)/admin/manage-users/page.tsx": {
+      "bytes": 655,
+      "sha256": "5cb769902dadf6c6005b096bb76965f79b88e65566beba796fd6e68ab4165771"
+    },
+    "app/src/app/(app)/dashboard/page.tsx": {
+      "bytes": 865,
+      "sha256": "b41e381344c79663092fa3216bdf74852c801ba61d6a78bfbc81e4b43427cca9"
+    },
+    "app/src/app/(app)/dashboard/patient/_components/PatientForm.tsx": {
+      "bytes": 5305,
+      "sha256": "507cb46a9e1e8aecb0fb46e8987cda9235c1b304865d362c6b8cc65a02f6e880"
+    },
+    "app/src/app/(app)/dashboard/patient/_components/PatientFormSections.tsx": {
+      "bytes": 13096,
+      "sha256": "c0094f3b7149baaf8677ca9e6fe3d54a3e2f4eb7d135a7777b241cecff02cb0e"
+    },
+    "app/src/app/(app)/dashboard/patient/_components/patient-form-types.ts": {
+      "bytes": 2129,
+      "sha256": "669af83c278dd8f306683458377707e408910a7ae3aec697ccb17cc4a49d2ad4"
+    },
+    "app/src/app/(app)/dashboard/patient/_components/patient-form-utils.ts": {
+      "bytes": 2328,
+      "sha256": "e548600d696ebf6f086e4054da10ab7d23d473dd04698e75b11246ed01a04ed6"
+    },
+    "app/src/app/(app)/dashboard/patient/attributes/_components/PatientDetailsContent.tsx": {
+      "bytes": 11401,
+      "sha256": "45a6638d17f5974db617a88f72be0bffbc0b0cb56e7522de68cf1a5e8ef1551b"
+    },
+    "app/src/app/(app)/dashboard/patient/attributes/page.tsx": {
+      "bytes": 166,
+      "sha256": "30b86dc799077a1cabf076386b805135c98b5d6119e40cb1330b566fbb96011f"
+    },
+    "app/src/app/(app)/dashboard/patient/create/_components/CreatePatientContent.tsx": {
+      "bytes": 1361,
+      "sha256": "ddb6a647f1d248a63ca6a24a4595517bba991d2ae08502cdbd279f70bdd48508"
+    },
+    "app/src/app/(app)/dashboard/patient/create/page.tsx": {
+      "bytes": 160,
+      "sha256": "201822522cad2110c48eacba7c01f82187077ea79e20782db6e3766d6e226d83"
+    },
+    "app/src/app/(app)/dashboard/patient/edit/[patientId]/_components/EditPatientContent.tsx": {
+      "bytes": 2701,
+      "sha256": "8a65b389ef6e1289162f2346cd9387e76c4d1317c868dc78f94921a6acf67b6d"
+    },
+    "app/src/app/(app)/dashboard/patient/edit/[patientId]/page.tsx": {
+      "bytes": 336,
+      "sha256": "5500a9dc36767b792e9ed86cf5977a43aa7823cd515f57c239cf59c2bb64f60e"
+    },
+    "app/src/app/(app)/dashboard/patient/index/_components/PatientList.tsx": {
+      "bytes": 2673,
+      "sha256": "25ed43e26aac1ef673262d216e5943ffbe81374a03c5d3e7604a503a3e2d04d6"
+    },
+    "app/src/app/(app)/dashboard/patient/index/columns.tsx": {
+      "bytes": 1983,
+      "sha256": "ea9f5e3150bc59d3c691ec0f5d83c1f26841d04b1d713c77f7f565b57082397b"
+    },
+    "app/src/app/(app)/dashboard/patient/index/page.tsx": {
+      "bytes": 1504,
+      "sha256": "a94a1da8abb73bea6f47bd97cd8f4632e88cac5a95ea038f91fa922edcc75595"
+    },
+    "app/src/app/(app)/dashboard/patient/index/types.ts": {
+      "bytes": 549,
+      "sha256": "cf5bbf9088ac08eca5faa7c9f8356cefcab15c6fa491ec95e2f26bd5a7e3e036"
+    },
+    "app/src/app/(app)/dashboard/patient/layout.tsx": {
+      "bytes": 626,
+      "sha256": "0594e81d9eeea75a473d0d861e8b470fcb8dff90113e3c0d57e4273ba3f565e3"
+    },
+    "app/src/app/(app)/dashboard/patient/page.tsx": {
+      "bytes": 132,
+      "sha256": "f6e804d5133d53d7ce94ad6b4104f352fe1e6eb25bbee5448e76b0ef9e4718fb"
+    },
+    "app/src/app/(app)/dashboard/patient/show/[patientId]/_components/PatientDetailContent.tsx": {
+      "bytes": 7569,
+      "sha256": "4f7695f37d6fe9c0f89cef0a309f84c4b3079791bea482365c77d4c79877557c"
+    },
+    "app/src/app/(app)/dashboard/patient/show/[patientId]/page.tsx": {
+      "bytes": 343,
+      "sha256": "da170aa5eb95b052bcae5206d2620105b57827949d1631722877436e0cd5cc1c"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/_components/SessionTimelineContent.tsx": {
+      "bytes": 12247,
+      "sha256": "87855dc5dc9b71122c408e3535386825d7c728b5db2de2aff3ec8d82660ffcb5"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/_components/SessionTimelineSections.tsx": {
+      "bytes": 10451,
+      "sha256": "76983dab8db584308f8bd9dc1598b87df7e37cb3d8ba1cb2c609401cd530e229"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/_components/SessionTimelineSteps.tsx": {
+      "bytes": 4669,
+      "sha256": "499090a86e6779d57a2b8c2d405afc4da5f66ae70488e949eb0cd52ee9683820"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/_components/session-timeline-types.ts": {
+      "bytes": 842,
+      "sha256": "3ad3d76d37ae44466b5f39bb22f281ea0322ef84c100529f0e5c7b72e07aee35"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/_components/timelineConfig.ts": {
+      "bytes": 6398,
+      "sha256": "24951fb97c8a53e94958f6eec1925cc93c8c8ce9de61ebc92fe4aa4983935389"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/ChatComposer.tsx": {
+      "bytes": 9705,
+      "sha256": "23db7992d2dce04bb3da92356131de178012562a99e7a466988209a9b0c3dae3"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/ChatContent.tsx": {
+      "bytes": 29182,
+      "sha256": "37e3677acc5a8cf81f450381339424241405945107eb23ddde5f6370f1bfaae8"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/ChatDialogs.tsx": {
+      "bytes": 6315,
+      "sha256": "54423418f451be5da301901349009d3a6db2f9a0135b7c8b60a33c3fb6fc60fb"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/ChatMessagesPane.tsx": {
+      "bytes": 15312,
+      "sha256": "54810268cdfd6904f35851accd043ebe856d67732eb9b8a32e20c35c1fdb6aca"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/ChatPatientSidebar.tsx": {
+      "bytes": 5426,
+      "sha256": "8c3abb7562e9d12cab26ada91d752398b4433a62bfc3fde0fcd854c6bdb6f9ab"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/ChatSessionHeader.tsx": {
+      "bytes": 4546,
+      "sha256": "3a38eb4c2567a51f68b182881ce10a260c3755116d0df311936b98cc9addf1d2"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/EmotionTrendPanel.tsx": {
+      "bytes": 16687,
+      "sha256": "43c6ed03ea9f17e8b0bb450e34e5ed02d5d5c47e5feb35bbe1847cc42c9e32ad"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/chat-constants.ts": {
+      "bytes": 1378,
+      "sha256": "f97a6f106445e2558f6b6905a0624963c8d1ce794f13e4765f7473274861e5b5"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/chat-emotion-utils.ts": {
+      "bytes": 11211,
+      "sha256": "2836192b6b17a066262ac5ed874ae98e62b6d030aa56ca950d6c71adc6737f66"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/chat-message-utils.ts": {
+      "bytes": 1541,
+      "sha256": "2642d777d07d552bf66522dd92ae6f6356de3a359022d2483eb31022b31b5b24"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/chat-pdf.ts": {
+      "bytes": 17340,
+      "sha256": "e3466cbd0c180be986ac469286410287512bc5657cfeec6bd73bde10313e391f"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/chat-types.ts": {
+      "bytes": 1854,
+      "sha256": "2eae94b4dca8b71adf6bc427b9b713944739dc4397374e1d29ba20784045efaa"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/chat-utils.ts": {
+      "bytes": 5245,
+      "sha256": "a70641314f2acdb7cb8fe627e5e6fa949821c0f01e19483eb30453df29c5924f"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/useChatBootstrap.ts": {
+      "bytes": 6057,
+      "sha256": "09f6f25e223294aaca24e68fdc8426bfd2548533720303b3f68459b26d8db308"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/useChatSessionTimer.ts": {
+      "bytes": 1021,
+      "sha256": "0d47decc5945f699e3b1e30bdc86ebba4dd092277470f6dae7db3c52e30d0a27"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/_components/usePdfHeaderAvatarDataUrl.ts": {
+      "bytes": 2434,
+      "sha256": "d9a46df148268ffc6671e57c25c3367aee00833111a58221cc10faff26162464"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/missteps/_components/StepMisstepReportContent.tsx": {
+      "bytes": 30533,
+      "sha256": "834af197bb4aba38599889acb4149ab9fde5e349d546e462ee8dd3955678033e"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/missteps/page.tsx": {
+      "bytes": 406,
+      "sha256": "6a376907d9313e8a24f60db4b0da2e9e1444d02b3dbe3528ad1e0c62dc672f0c"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/chat/[stepId]/page.tsx": {
+      "bytes": 353,
+      "sha256": "adac3399acdd9facdbb60ece6aed6e9a50b58cc1ffb31440d711a147c53b8bc6"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/[sessionId]/[patientName]/page.tsx": {
+      "bytes": 397,
+      "sha256": "7dc508fdd4c88806b98d6499e36e8a9b3f526ad134af0de680cd8153029f20c4"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/ConclusionPhaseCard.tsx": {
+      "bytes": 730,
+      "sha256": "0abe314940f3478620756921f76cd4cb5dfe828ef06ffdc85b65130462cd6bb1"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/InterventionPhaseCard.tsx": {
+      "bytes": 773,
+      "sha256": "6ac47052c216819ee6444b706de1db7910bb4a677ec2ea5ac4ae84f714c45c02"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/KnowledgePhaseCard.tsx": {
+      "bytes": 742,
+      "sha256": "1e918fda259e8761b3726b3bff4843d6f9e9d7b7beab8a4438b03926371c5fee"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/TherapeuticJourneyContent.tsx": {
+      "bytes": 8190,
+      "sha256": "df1e0030f356819186d4e8728ba5fa70c8771e10925ff3017264e61a59c87404"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/TherapySessionCard.tsx": {
+      "bytes": 6822,
+      "sha256": "ac6f9dd514fb7a02cfefc39d09f01b0c76ba99220b1bb41f55a5d9a176e5c597"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/TherapySessionFilters.tsx": {
+      "bytes": 2153,
+      "sha256": "ce7dc724add3addc0e6f6d2e0621bc7d225af348377a32359c14cf9b370bbec5"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/_components/TherapySessionMetrics.tsx": {
+      "bytes": 835,
+      "sha256": "f6520f7ca48772fa2bf91c02c5895edaab0a2b05204dfb4bf9f876af95b108c2"
+    },
+    "app/src/app/(app)/dashboard/therapeutic-journey/page.tsx": {
+      "bytes": 573,
+      "sha256": "5d97a1ee1151cab73bf87b050df9ead55cb9dbee9669b40a1d09d5f4e0cd45bb"
+    },
+    "app/src/app/(app)/dashboard/user/_components/UserContent.tsx": {
+      "bytes": 6227,
+      "sha256": "ccc15bd339b5c37c9b94cd7d65b73a68fa5e674ef9aabec68034dab02631d947"
+    },
+    "app/src/app/(app)/dashboard/user/_components/UserContentSections.tsx": {
+      "bytes": 12608,
+      "sha256": "1ed13594a46947ce9365ff75b844667495a74e3d8a93297549dcbad7f3d72dbe"
+    },
+    "app/src/app/(app)/dashboard/user/_components/user-content-types.ts": {
+      "bytes": 288,
+      "sha256": "d164e218f5cd7af274f247acf8660a671d7f2b368571c929140549b9ff5f6667"
+    },
+    "app/src/app/(app)/dashboard/user/page.tsx": {
+      "bytes": 512,
+      "sha256": "1727da9fabfa7186482f660cfa25f676181bd2f9b8a152a55c20114fd19abd0a"
+    },
+    "app/src/app/(auth)/login/page.tsx": {
+      "bytes": 15414,
+      "sha256": "61d6389f71c325dbdc4f62a997dc51372ec728507f33ac186a853e733eb13ed9"
+    },
+    "app/src/app/(auth)/register/page.tsx": {
+      "bytes": 12776,
+      "sha256": "c43541fc04606f264d6c74385fe7c4b502ac2d60898d2ef9fedc5f3cf215a378"
+    },
+    "app/src/app/(auth)/signout/page.tsx": {
+      "bytes": 668,
+      "sha256": "416668ae3813af7c89d789aa25fb6d5c0d806f6f3c686671ded3006c182c2c07"
+    },
+    "app/src/app/(public)/cookies/page.tsx": {
+      "bytes": 3853,
+      "sha256": "798076d08aad08a1853ee402511aede5c98dd6b4b5484a782638526589438f41"
+    },
+    "app/src/app/(public)/explore-patients/[patientId]/[patientName]/_components/PatientDetailContent.tsx": {
+      "bytes": 11711,
+      "sha256": "f1d3c16d87feb2be2baf39ce0cc4b1438f43d40b689a96b34e152bacceb0b74c"
+    },
+    "app/src/app/(public)/explore-patients/[patientId]/[patientName]/page.tsx": {
+      "bytes": 523,
+      "sha256": "e274e79f46aac9a84baa2815cccdeb8a66f659e0ead83a9378585cd0e741d4a6"
+    },
+    "app/src/app/(public)/explore-patients/_components/PatientCard.tsx": {
+      "bytes": 5726,
+      "sha256": "ed24d5428e6a5e29f6e0c5af2b4eac0b00de7d1768a70c436dc1bd368d91bc72"
+    },
+    "app/src/app/(public)/explore-patients/_components/PatientGrid.tsx": {
+      "bytes": 1903,
+      "sha256": "12a284b4346ce4b0ad9e325b705e238b9f64e56d01b98c02e3f1626cad1d1d7b"
+    },
+    "app/src/app/(public)/explore-patients/_components/PatientGridWrapper.tsx": {
+      "bytes": 386,
+      "sha256": "8505e99a2fedb8d22f76e925dfe08f51c465c595ae3ebc330547e607019bd0b6"
+    },
+    "app/src/app/(public)/explore-patients/page.tsx": {
+      "bytes": 2503,
+      "sha256": "ca73d166cb270b7087ddabe459bbc82a979f1f8838446e5cf3eee6fa5a9844e0"
+    },
+    "app/src/app/(public)/privacy/page.tsx": {
+      "bytes": 4675,
+      "sha256": "fe3d515df3c5cbd3168eb3a0eee41914734a2b16b31c5507b99894b9d984a3c6"
+    },
+    "app/src/app/(public)/terms/page.tsx": {
+      "bytes": 4687,
+      "sha256": "cadccaedaa9f7a3e2b0af75348b3f14903839b535ed96299b8758a9b955160e8"
+    },
+    "app/src/app/api/auth/[...nextauth]/route.ts": {
+      "bytes": 82,
+      "sha256": "7e9f7f1e87405a15035719ae294549ad2767b8deec5a30f618d9ab7982b68447"
+    },
+    "app/src/app/api/auth/register/route.ts": {
+      "bytes": 6647,
+      "sha256": "20c199d635a7a673e2400dbacc0e018612c9471b88705bacb930e545d90e6eaa"
+    },
+    "app/src/app/api/signout/route.ts": {
+      "bytes": 507,
+      "sha256": "b406e66307ede973f2a24276cf9aaceede54c12a82e358d246ae46dbae447cdf"
+    },
+    "app/src/app/api/trpc/[trpc]/route.ts": {
+      "bytes": 799,
+      "sha256": "208e9892330e24f1aee913224e257af6cef75940bcf470c5429df0796e661510"
+    },
+    "app/src/app/api/tts/config/route.ts": {
+      "bytes": 886,
+      "sha256": "b56c136d1eb84068be5a2cef34d7e9a37febd1be5842287e8aeb4f8b9c5a01a8"
+    },
+    "app/src/app/api/tts/generate/route.ts": {
+      "bytes": 4432,
+      "sha256": "5fe7b1907e5c8f8d0ada26f88f72d8f799e3733f71c5c64677e63cb9058f0247"
+    },
+    "app/src/app/layout.tsx": {
+      "bytes": 3982,
+      "sha256": "6ac34cbf2a12b37dd40c190191281915f4260304961adfeb4e86010101eebad0"
+    },
+    "app/src/app/page.tsx": {
+      "bytes": 8832,
+      "sha256": "a8d7ae9ab61b9f3e0346b723ad7c03905669a0e42191a7513819694ea2562f06"
+    },
+    "app/src/components/common/LoadingCard.tsx": {
+      "bytes": 814,
+      "sha256": "946d8b9da78477420ac22ea46b87df189517306b75509381d9241cd933ebab1d"
+    },
+    "app/src/components/common/SessionLoading.tsx": {
+      "bytes": 618,
+      "sha256": "7659d5c7be4035c59ff445f1bcf734d527eb1b04fe22d8701d6b3074db1fb9eb"
+    },
+    "app/src/components/common/Toast.tsx": {
+      "bytes": 3359,
+      "sha256": "0eb5eab8feeb2d6db1364b3ee057829042d1d290f93e418b74afd4a1fd631b71"
+    },
+    "app/src/components/common/ToastProvider.tsx": {
+      "bytes": 2910,
+      "sha256": "b3c4a3370604e348826ba18418fef904a4575ad702cfea58c2e79f68d1e9d8f5"
+    },
+    "app/src/components/dashboard/PhaseCard.tsx": {
+      "bytes": 6500,
+      "sha256": "4f80ab548dabfb56d4f1ec25118171ffc1a5c4109cda4de50034c7d979d9e8ad"
+    },
+    "app/src/components/dashboard/ui/DashboardMetricCard.tsx": {
+      "bytes": 2288,
+      "sha256": "a3e191e49490bf0e044655ba24d355c4259de57451a1005b7504ad5b1409ff2a"
+    },
+    "app/src/components/dashboard/ui/DashboardPanel.tsx": {
+      "bytes": 855,
+      "sha256": "c923fbfdec6bbdcf7afb2d7e660bdb61aafc05b0274d3446552da057a2330166"
+    },
+    "app/src/components/dashboard/ui/DashboardSection.tsx": {
+      "bytes": 2419,
+      "sha256": "d0d4613634f112e265c43c25bb84a439c1b32565183eea706540ef66c8260714"
+    },
+    "app/src/components/dashboard/ui/index.ts": {
+      "bytes": 109,
+      "sha256": "f4acb1b8ae359acaf5cf250ae24c1121ee0371db979f60a21a795c26b28c1085"
+    },
+    "app/src/components/debug/SessionDebug.tsx": {
+      "bytes": 4837,
+      "sha256": "85fbe2f5d029a47bd56ecd76f15a1598067c8a362c9e4157fb4c309a936cf01e"
+    },
+    "app/src/components/debug/SessionDebugWrapper.tsx": {
+      "bytes": 274,
+      "sha256": "9558540408ac356774a33f94177466f86f3be3761cc3f5b9fd8155b1db279a39"
+    },
+    "app/src/components/features/explore-patients/LoadingGrid.tsx": {
+      "bytes": 537,
+      "sha256": "fa7233ccf59baa361dc08c3a6b2a106dbdd1636d6eed7d77a379bb68f92da12f"
+    },
+    "app/src/components/features/explore-patients/PatientAvatar.tsx": {
+      "bytes": 3984,
+      "sha256": "dd342ba535cebcc5286ff8b393492e3d394a3665306d0e9bc3dcd91ada9679a8"
+    },
+    "app/src/components/features/explore-patients/index.ts": {
+      "bytes": 95,
+      "sha256": "d9729c1e387c20b5ddbf83da46f87f0bcbe993753571c2a3da48983382a99462"
+    },
+    "app/src/components/layout/AuthLayout.tsx": {
+      "bytes": 5171,
+      "sha256": "7bde69ef3dbcaa1e290dfc7ac3c88a915a3cc71825b304986748896ad4f68c6a"
+    },
+    "app/src/components/layout/SharedLayout.tsx": {
+      "bytes": 7663,
+      "sha256": "83ecfceb91b6c059f62e825c6e03dd75ee61c6881453d62428323f8ef94d483a"
+    },
+    "app/src/components/navigation/ShadcnNavbar.tsx": {
+      "bytes": 3517,
+      "sha256": "f254d14e0d03969c561fda019d6cc6a73a647447c0b0e2eb03f8c47b970bdbcd"
+    },
+    "app/src/components/navigation/index.ts": {
+      "bytes": 100,
+      "sha256": "83ae977b0175e10f2ecc5123b4a9c3c55eedb640f228d258365306f05d56ecd2"
+    },
+    "app/src/components/navigation/navigationUtils.ts": {
+      "bytes": 2619,
+      "sha256": "ce89db3867b6e39228771bda66add85e5e2e7f07668363321fad22d47d3554ce"
+    },
+    "app/src/components/patient/PatientDifficulty.tsx": {
+      "bytes": 1085,
+      "sha256": "35be9b0e43419a8992582d78ff9131b79c233c1d847c9f18ae09b82bea5eb435"
+    },
+    "app/src/components/patient/PatientDuration.tsx": {
+      "bytes": 454,
+      "sha256": "7b7a01e92a584649483886d451044b8ac94916ebf9a64a0d222c269f2529879a"
+    },
+    "app/src/components/ui/alert-dialog.tsx": {
+      "bytes": 5490,
+      "sha256": "1bb74dc7a7e8fbbab62551a1a500fbd4542de8f69689d4de6e3809e353fec8e5"
+    },
+    "app/src/components/ui/alert.tsx": {
+      "bytes": 1598,
+      "sha256": "7753b5f56f5135292b3bf0fc5736affb7f77d1aabccbf661c53af83fce042598"
+    },
+    "app/src/components/ui/badge.tsx": {
+      "bytes": 1686,
+      "sha256": "8f92e5ff595d8fdb1a33a1604f6f34152c210fc27c93a292a45bbaa97a61d284"
+    },
+    "app/src/components/ui/breadcrumb.tsx": {
+      "bytes": 4276,
+      "sha256": "00c4ae290a6dd29d6853f89c0a39939509693205a37d39a7dbde6e7a1fb966c9"
+    },
+    "app/src/components/ui/button.tsx": {
+      "bytes": 3146,
+      "sha256": "00d9e45d7a6425f8b9227ce8cc8b54c0554fd00fbf5137755c6f491a589847cc"
+    },
+    "app/src/components/ui/card.tsx": {
+      "bytes": 1859,
+      "sha256": "1c30c3cbc86e5380188ad313a61b55d28c7ea7bbafea2848f183d66d70bf92ff"
+    },
+    "app/src/components/ui/checkbox.tsx": {
+      "bytes": 1297,
+      "sha256": "506dd8101ce4db4a5e2b230ae21b049a2a09b33dd247e7cdabd6e945cb3ce99e"
+    },
+    "app/src/components/ui/collapsible.tsx": {
+      "bytes": 329,
+      "sha256": "f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04"
+    },
+    "app/src/components/ui/data-table.tsx": {
+      "bytes": 3335,
+      "sha256": "de236ca7b6b9c7c191b1ce5d4c37c00447809c722cee2f0eee58e29203d96404"
+    },
+    "app/src/components/ui/dialog.tsx": {
+      "bytes": 3768,
+      "sha256": "a3238d5c4125e333a2218d88dec6216a803168f43181da9b4f54795f7ca20837"
+    },
+    "app/src/components/ui/empty-state.tsx": {
+      "bytes": 1145,
+      "sha256": "6a284dcf4cfa2135ae9ac7311558a9c0dc054939e8e323099b6f844f80f853d0"
+    },
+    "app/src/components/ui/form.tsx": {
+      "bytes": 4040,
+      "sha256": "c962408cb92e06fe0117b83af0c864cbbc5ab897ff63e22b7efeb14731d14208"
+    },
+    "app/src/components/ui/index.ts": {
+      "bytes": 2153,
+      "sha256": "8b6c58381b34b6280b4df7fda6f806065383423656d885ff0fa2f6cb2c9df5a5"
+    },
+    "app/src/components/ui/input.tsx": {
+      "bytes": 3405,
+      "sha256": "bd62b22bdf44b313dcdc80b6c94aeef52b6272daa9ba8d599b95292b620ca858"
+    },
+    "app/src/components/ui/label.tsx": {
+      "bytes": 724,
+      "sha256": "abcf9720b39bbd9b069c2c3e0cebeb340475d4c67579744a26f7fea57e9e2ac2"
+    },
+    "app/src/components/ui/popover.tsx": {
+      "bytes": 1238,
+      "sha256": "e55945e2cc04c23220da38447eb7f1fc0f9663d1504a45df34eeaa703b0e5eee"
+    },
+    "app/src/components/ui/progress.tsx": {
+      "bytes": 810,
+      "sha256": "b6a33eb5414eb83b5c80621ee778bfeda1520f3ea1742a53e7d5505c9e3cbb1e"
+    },
+    "app/src/components/ui/scroll-area.tsx": {
+      "bytes": 1656,
+      "sha256": "1e112a8b4315e0f299156fe8b365bd929cc2a7a3e3d13e5cfaf6aef4b2cf8898"
+    },
+    "app/src/components/ui/select.tsx": {
+      "bytes": 6088,
+      "sha256": "1d72fe45177fb352b2c5e7641e31b13af64e296c854839cd4b2c3094357c426e"
+    },
+    "app/src/components/ui/sheet.tsx": {
+      "bytes": 4009,
+      "sha256": "96789622582661b9f193af12b06052c342442e51590ff3f647300ede13372688"
+    },
+    "app/src/components/ui/skeleton-variants.tsx": {
+      "bytes": 28079,
+      "sha256": "dc79549842eabe5950369cb6c0998a330e8e358e5e0548c4941cb8f9d11b5acd"
+    },
+    "app/src/components/ui/skeleton.tsx": {
+      "bytes": 3942,
+      "sha256": "930280526f2176674ee721230591b81ed0929a97902994a65d1ec44b1d5be9bb"
+    },
+    "app/src/components/ui/slider.tsx": {
+      "bytes": 1224,
+      "sha256": "a6a0dcddcacb3944d095ff0552516d3bd446b62fd5d72ba1d229098bdb210ca1"
+    },
+    "app/src/components/ui/switch.tsx": {
+      "bytes": 1346,
+      "sha256": "69f40b47c8bfea9c6c47ab64241b6680f810ba225b0e0454721ae3736561b434"
+    },
+    "app/src/components/ui/table.tsx": {
+      "bytes": 3030,
+      "sha256": "f8aacc245a7eb44656227f5db7c78094b54d21935604fb62d1f16a245b124ed2"
+    },
+    "app/src/components/ui/tabs.tsx": {
+      "bytes": 1672,
+      "sha256": "6a5d45d38c2091d24c712d40ace59a39210f898a973c7c8cbb4d771a209a1b41"
+    },
+    "app/src/components/ui/textarea.tsx": {
+      "bytes": 2804,
+      "sha256": "a4989e2053980fc88b6e8d988eb5a8a26471b04c3f45b3ecf188c990d9ffd62b"
+    },
+    "app/src/components/ui/tooltip.tsx": {
+      "bytes": 1921,
+      "sha256": "b4157a1a650633a37cfbe152234c94a8a126977906a7aa9d2e13445ca8e93212"
+    },
+    "app/src/env.js": {
+      "bytes": 4012,
+      "sha256": "fbf01ed51efcd608499ea48faecf7235538aaee51766257de3adf3c110ccd716"
+    },
+    "app/src/global.d.ts": {
+      "bytes": 24,
+      "sha256": "35d26ea66c86da9701e4f4b467913481ffeae910761cea34c775c5dacb7f8eaa"
+    },
+    "app/src/hooks/useAppToast.ts": {
+      "bytes": 1161,
+      "sha256": "c34493ee959f25778ee628270247921e3f8f59fc21c3738da4cd6e9445707e17"
+    },
+    "app/src/hooks/useAudioPlayer.ts": {
+      "bytes": 11642,
+      "sha256": "092eb8e3843de7126c2e8ae28cd76edaf0fd793bb691dbe8a4f0b253e9d69901"
+    },
+    "app/src/hooks/useLogout.ts": {
+      "bytes": 1586,
+      "sha256": "07ab4b7582457e487cc749ac5896810860493e08a0c029d825d1ab452a0bc922"
+    },
+    "app/src/hooks/useMediaQuery.ts": {
+      "bytes": 792,
+      "sha256": "5bbcf93f9dd8fe33475225a72185c9e532c0bb8fe9e0a9612cc920e77d4eee68"
+    },
+    "app/src/hooks/useTTSStatus.ts": {
+      "bytes": 1826,
+      "sha256": "f5ae11b0b58225621e0296540c390612654ec8e737c5eb58e036c1cb099d7e3d"
+    },
+    "app/src/lib/constants/difficulty.ts": {
+      "bytes": 1543,
+      "sha256": "6f80483566e15ecc60ea9ff21eee40e0dfdc7b8f02e6527e804d8fb49c6c62a6"
+    },
+    "app/src/lib/logger.ts": {
+      "bytes": 5195,
+      "sha256": "e86fcdd06fa21fd30a0654c76c49867ac1c0e3408eace40dab20e75d30e8458b"
+    },
+    "app/src/lib/missteps.ts": {
+      "bytes": 4421,
+      "sha256": "5e2d24640ea699a93e5a2673ac2f8e2818e6b47c7893b2c6553e391911598df4"
+    },
+    "app/src/lib/patient-initialization.ts": {
+      "bytes": 373,
+      "sha256": "2e1d89e801310bfcc3e4b19719e497ef7a9a2ee09287bd640b07968dc6954690"
+    },
+    "app/src/lib/tts/constants.ts": {
+      "bytes": 1263,
+      "sha256": "6c06f00cd419d1739119dc34ae95c59303c6692e452811859f7dcff9581893a2"
+    },
+    "app/src/lib/tts/providers/base-api.ts": {
+      "bytes": 3304,
+      "sha256": "37cb8fcf6b017aaff3a82f66bca357a031d2fc17bcca53a752c68468f7b4cee1"
+    },
+    "app/src/lib/tts/providers/chatterbox.ts": {
+      "bytes": 1097,
+      "sha256": "bb8065cb197c1a8b4714334a123398ed1365b6b97acafb273e455afeb9a765fd"
+    },
+    "app/src/lib/tts/providers/elevenlabs.ts": {
+      "bytes": 1145,
+      "sha256": "e4d63ec775606ddc35237b1c3888e65b1860f07cf30c640a9170292eb8659626"
+    },
+    "app/src/lib/tts/providers/index.ts": {
+      "bytes": 3086,
+      "sha256": "55c1edd677b4b0c545604fd142f1959410c8fe57e71f457fc7480ff2eb793795"
+    },
+    "app/src/lib/tts/providers/types.ts": {
+      "bytes": 1358,
+      "sha256": "a7d9a70bcf7f19b9c437c46484a7ff5520a8a8d0f48a852038223ffc6bc99867"
+    },
+    "app/src/lib/tts/providers/vibevoice.ts": {
+      "bytes": 1676,
+      "sha256": "d4f08b4eef75675d18fe0e6c64bc27895ab09fe8cca870177a5a7c6b1ec4fa64"
+    },
+    "app/src/lib/tts/providers/voice-mapping.ts": {
+      "bytes": 3520,
+      "sha256": "af3d2b4160754cca4852bad0f2b167d738546c578f0ed14c2b2f3eca2f1e9b8b"
+    },
+    "app/src/lib/tts/utils.ts": {
+      "bytes": 3852,
+      "sha256": "094925ec7aee838c93129fed49a369b754964917ed02f4c720541f040aaba268"
+    },
+    "app/src/lib/utils/clipboard.ts": {
+      "bytes": 269,
+      "sha256": "8185ed1f820353f55a2085c53ddb2916a43357f57dce4c54c13f4e9c80a9f55e"
+    },
+    "app/src/lib/utils/cn.ts": {
+      "bytes": 169,
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f"
+    },
+    "app/src/lib/utils/error.ts": {
+      "bytes": 291,
+      "sha256": "0dc1afc108dc11c849f2041bde8834662dbe657410e2f548138b15a19e156ec2"
+    },
+    "app/src/lib/utils/index.ts": {
+      "bytes": 366,
+      "sha256": "729a98f78b76de135ff3f93bf4332f7a25b4210d1d26fc073e7ee3bc67ccb8d1"
+    },
+    "app/src/lib/utils/patient-avatar.ts": {
+      "bytes": 910,
+      "sha256": "51374dafd44f74f8d275f0ac6cdca8a81b8e02af4fc47900f467a5c89330ef61"
+    },
+    "app/src/lib/utils/route-params.ts": {
+      "bytes": 215,
+      "sha256": "34060a2714f434e56d61fd443fa94ead1d38d03450185aa712c2e3ffe71631bb"
+    },
+    "app/src/lib/utils/slugify.ts": {
+      "bytes": 442,
+      "sha256": "341d0b352ec0cb388e389fd0348bee0707217707188f6ff8dae2dc0d12a9367a"
+    },
+    "app/src/lib/utils/storage.ts": {
+      "bytes": 678,
+      "sha256": "52b4c20ff97219edffd635a974424e5a29d23b81e5113261169cf846c5e35894"
+    },
+    "app/src/server/api/root.ts": {
+      "bytes": 963,
+      "sha256": "5590684fe0bbb17bc56115c0196dc242d3026fb8be68e5d1b27c0d8498bd4234"
+    },
+    "app/src/server/api/routers/chat.ts": {
+      "bytes": 14352,
+      "sha256": "da250d64e78fa329f1465aab64dbbc61cfeca3476aa442eac001ef36257f9410"
+    },
+    "app/src/server/api/routers/dashboard.ts": {
+      "bytes": 12916,
+      "sha256": "b81e01d74fb62ff46100da349fc6faf56db5d895ff8b449f662e442d56a4c153"
+    },
+    "app/src/server/api/routers/impersonation.ts": {
+      "bytes": 13786,
+      "sha256": "6a71278cb3cb92e94b907d0d04a077a9111a85a8393bca75362cf36c20ae8434"
+    },
+    "app/src/server/api/routers/patients.ts": {
+      "bytes": 12870,
+      "sha256": "e09f0693021a7cd7d440b32ded5e5dc6bb8a063ed8129d7388db9015c25d0e1f"
+    },
+    "app/src/server/api/routers/step-evaluations.ts": {
+      "bytes": 3462,
+      "sha256": "8bd9818fd06ccbd40ca13b5abae6acc5bde93319f136667fd978e898354d67a0"
+    },
+    "app/src/server/api/routers/therapy-sessions.ts": {
+      "bytes": 10243,
+      "sha256": "505cdc2622f7213c7383e46be76734730fef2327219d13346e8ce6b632eb948b"
+    },
+    "app/src/server/api/routers/user-management.ts": {
+      "bytes": 9447,
+      "sha256": "c1a6625e09ebf993cd3669199ade696a62cf96c9170c196afb7aee58d2e1fa22"
+    },
+    "app/src/server/api/trpc.ts": {
+      "bytes": 1383,
+      "sha256": "a2b19ca0149e738c99a5e5ca7b3335e8bf6283375164ee1f131939abf7b455cb"
+    },
+    "app/src/server/auth/config.ts": {
+      "bytes": 12338,
+      "sha256": "c4220a8266d8b81c163ecd5b095385b56b2f66c828a9a6ba59c33ea440ea1934"
+    },
+    "app/src/server/auth/error-handling.ts": {
+      "bytes": 9446,
+      "sha256": "1a1b92a12167b2aded10195cdb579f6727d12fc76bbef295aeb87ff98db322f8"
+    },
+    "app/src/server/auth/index.ts": {
+      "bytes": 266,
+      "sha256": "db476ea8591de1c910380bbc3d992599ecf979beb0c64677514dc68687963c73"
+    },
+    "app/src/server/auth/session.ts": {
+      "bytes": 1588,
+      "sha256": "127c758e2dd2873cb769367aae791d1b93394eaa9e330456285215cc745da19f"
+    },
+    "app/src/server/auth/user-validation.ts": {
+      "bytes": 7755,
+      "sha256": "e779ca0e3bd03ec02120e3627bab99221c68cf287e2e8a1f8ea2a98a7ab98d07"
+    },
+    "app/src/server/db/contracts.ts": {
+      "bytes": 356,
+      "sha256": "a27a4617de1404b5b4bb6184ea52ec58c0ee5d25e06906f84c16dff74f58c072"
+    },
+    "app/src/server/db/errors.ts": {
+      "bytes": 3981,
+      "sha256": "f69d28eaa934574156f12751fbffe23a6699869f8732c3b706a358b484ec235f"
+    },
+    "app/src/server/db/index.ts": {
+      "bytes": 690,
+      "sha256": "859b461380a9799bb6ac99691f20d209dd1daa69b35aa8863597e9ca23318d93"
+    },
+    "app/src/server/db/patient-details.json": {
+      "bytes": 12885,
+      "sha256": "f803dff8bac22b7d74ce13bfdac539902e60e4a8ae6f77817f19c5c1f9c7c8da"
+    },
+    "app/src/server/db/schema-postgres.ts": {
+      "bytes": 11744,
+      "sha256": "ca696d8bb856f196af696b184d05cc6f959a89338b2a937112f54df64f7907f1"
+    },
+    "app/src/server/db/tables.ts": {
+      "bytes": 35,
+      "sha256": "f7138ce71e54a791667202f174b1fe63a76b09ccfb76cd5f6fda8fa6e2603b69"
+    },
+    "app/src/server/impersonation/service.ts": {
+      "bytes": 5269,
+      "sha256": "ebd3f980cd0c4bb896ad6f25eca5ed0430cbdf549e6f39e8d0c04be8b628ee1a"
+    },
+    "app/src/server/services/chat-messages.ts": {
+      "bytes": 3459,
+      "sha256": "1cf5d4fc55c1b39696b7b3d7cfdfc9fd3cce61822a30f01288e09d3fa15a6cfe"
+    },
+    "app/src/server/services/misstep-evaluator.ts": {
+      "bytes": 38877,
+      "sha256": "960c09a17664e61b362334235aec07e065dac25c5b69c13057fa7f01da43548d"
+    },
+    "app/src/server/services/patient-initialization.ts": {
+      "bytes": 2157,
+      "sha256": "21c1067fb0702d30db1c5f2320ded4e1901671fc5753104ed9423009d951a5e8"
+    },
+    "app/src/server/services/patient-response-generator/errors.ts": {
+      "bytes": 1925,
+      "sha256": "b1f69f56442e7fb65c0787c42563b79757c828c92308a21a301409090b12acaf"
+    },
+    "app/src/server/services/patient-response-generator/generator.ts": {
+      "bytes": 8317,
+      "sha256": "4990e257f3a8b16a73edc379240eb0ded9fe48101492bd8d8f3c8c52d0e4ecfc"
+    },
+    "app/src/server/services/patient-response-generator/logger.ts": {
+      "bytes": 19159,
+      "sha256": "acca004f3304bd114476ea63fe97f0a2fec55d02f97ba347ac867091303d0986"
+    },
+    "app/src/server/services/patient-response-generator/mock-data.ts": {
+      "bytes": 11105,
+      "sha256": "c2cc758155701ce2c1240d73f2402f37b4e4114e6709706f293db715186ef73b"
+    },
+    "app/src/server/services/patient-response-generator/mock-service.ts": {
+      "bytes": 11001,
+      "sha256": "49be37dc2eaa4d97cc566ecd7ba3efc65e133093940adb6b84bbcf31b9fedab2"
+    },
+    "app/src/server/services/patient-response-generator/real-service.ts": {
+      "bytes": 12126,
+      "sha256": "c87ba91e3959d4d2e80ce42c5a812883e27213c48250d8bec3c77d2e29376e3a"
+    },
+    "app/src/server/services/patient-response-generator/types.ts": {
+      "bytes": 3371,
+      "sha256": "2667fc9ba447adc86fe6817318558b214121f1602b03c54c2fc62973084f0674"
+    },
+    "app/src/server/services/patient-response-generator/utils.ts": {
+      "bytes": 10282,
+      "sha256": "9a76429d1ed03e2c730a19de148e14f00b9d870878453a5d8b5369d185a25ffc"
+    },
+    "app/src/server/services/patient-response-generator.ts": {
+      "bytes": 325,
+      "sha256": "1b9ce7f4a3e42e93b0fb25f6e7964056f18c7667e667e15770f37c7d9252bd37"
+    },
+    "app/src/server/services/step-misstep-evaluations.ts": {
+      "bytes": 8014,
+      "sha256": "82b749b91dd36ccc570ba060e007258098f474ee44a16b532a5b02d1cae5e717"
+    },
+    "app/src/server/services/therapy-session-access.ts": {
+      "bytes": 1281,
+      "sha256": "cfa1680b88631d5728f91a62cc3d351625da5eaa146dd65bf5faee53d34963f4"
+    },
+    "app/src/server/utils/json.ts": {
+      "bytes": 1339,
+      "sha256": "9288fbd8e639f3016a0ca8a57c3c494929069ee579529955d77fe797576e66ec"
+    },
+    "app/src/styles/colors.css": {
+      "bytes": 5241,
+      "sha256": "7c39131702456301ccee2fc8456e644c684546ac2c06e0b3ec9587644b43bf51"
+    },
+    "app/src/styles/components.css": {
+      "bytes": 54830,
+      "sha256": "596d569f1f79d1cee333db12dda7a41dac33d52a738be0d0188e980dcc324141"
+    },
+    "app/src/styles/forms.css": {
+      "bytes": 13971,
+      "sha256": "9bc51eaa079bc53426d5d85482c1b05844a3706bb5d46cc0c34153bd74af70be"
+    },
+    "app/src/styles/globals.css": {
+      "bytes": 15151,
+      "sha256": "3e004568f710e15c970ef6256703d3e97b256f798b026b98b59ee6a3cfa63cec"
+    },
+    "app/src/trpc/query-client.ts": {
+      "bytes": 710,
+      "sha256": "134a2ea5208c3103c87576ebaa88c2ac16683edf0b4b7f98f34443e3cbcff8d9"
+    },
+    "app/src/trpc/react.tsx": {
+      "bytes": 1912,
+      "sha256": "f8d0976c141cbf65eb0bedcc8fea9901146acd5d02b5ed852470db3a04434ad2"
+    },
+    "app/src/trpc/server.ts": {
+      "bytes": 723,
+      "sha256": "af3001f47a9f2432e155beb06676bc9c9e726e87ccac9f984e2f16556391d848"
+    },
+    "app/src/types/index.ts": {
+      "bytes": 761,
+      "sha256": "472ed4343fc23c6c73dd2ed184e063c0e32ecffc24b04ed6d769b2ccfba8181b"
+    },
+    "app/templates/patient_template.yaml": {
+      "bytes": 4267,
+      "sha256": "69f4b6f6e870a04810b8013c02502befacdf3775a6e2708880df37b863a6a59d"
+    },
+    "app/tsconfig.json": {
+      "bytes": 910,
+      "sha256": "3c9d28c63383ea3e81ede366d24423dcfce6a5827572cbf936d55aa3e6c5395b"
+    },
+    "experiments/01_questionnaires/results/alex_carter_001/bes.json": {
+      "bytes": 536,
+      "sha256": "b8b10952bf5a6ebb324c9d388ea23bfaac17bee5c810badcb1eebab46d96a5b3"
+    },
+    "experiments/01_questionnaires/results/alex_carter_001/dsm5tr_l1.json": {
+      "bytes": 1429,
+      "sha256": "2abfbacfdd0b3004cfbae4f691a93a73ae563c8551b0d2edc54232c605d6056c"
+    },
+    "experiments/01_questionnaires/results/alex_carter_001/lpfs_bf2.json": {
+      "bytes": 365,
+      "sha256": "04fe487fbcacf1d90f17a25a184ce0c92a9a9c00de1789a0ef4e495efdabe509"
+    },
+    "experiments/01_questionnaires/results/alex_carter_001/phq9.json": {
+      "bytes": 345,
+      "sha256": "8fbf782663575150b962723495398c5de97823c4cf4add53fdf8bcf31e3c838f"
+    },
+    "experiments/01_questionnaires/results/alex_carter_001/pid5bf.json": {
+      "bytes": 1267,
+      "sha256": "96723be341f12f6d60801ebd98031bb0f6180aae146efb102246c306c18bd4ff"
+    },
+    "experiments/01_questionnaires/results/alex_carter_001/snap2.json": {
+      "bytes": 6236,
+      "sha256": "06b065919c8efef14973f340b4d6be010554c460f3090ddba45de41e83a71aea"
+    },
+    "experiments/01_questionnaires/results/crystal_smith_001/bes.json": {
+      "bytes": 539,
+      "sha256": "61c945c948aec11ec513face1b0e093b7682a311ca7ea8a25ffd7a75663f9083"
+    },
+    "experiments/01_questionnaires/results/crystal_smith_001/dsm5tr_l1.json": {
+      "bytes": 1422,
+      "sha256": "03acbafaec730c6af1d0484a254793f4dbf6feaa9ec651e98cd02803f6224f43"
+    },
+    "experiments/01_questionnaires/results/crystal_smith_001/lpfs_bf2.json": {
+      "bytes": 368,
+      "sha256": "2fa43f1f2dde849dedbff1636ec10447f423daf318ba6668acb1ac80c27452f6"
+    },
+    "experiments/01_questionnaires/results/crystal_smith_001/phq9.json": {
+      "bytes": 349,
+      "sha256": "d8d752f24551b85810353421c833daf3605c580418102fb56c05c4902bb9e9cc"
+    },
+    "experiments/01_questionnaires/results/crystal_smith_001/pid5bf.json": {
+      "bytes": 1267,
+      "sha256": "c5584c593db5ef9dd59a66cfbf8b387dfeb46157e6c2aa5452970f1bf9249317"
+    },
+    "experiments/01_questionnaires/results/crystal_smith_001/snap2.json": {
+      "bytes": 6238,
+      "sha256": "5540efa6bd32bcfbcb7b830a99ea4e95920a8c61cea8755b8788d8287759c4ee"
+    },
+    "experiments/01_questionnaires/results/daniel_isherwood_001/bes.json": {
+      "bytes": 543,
+      "sha256": "48c479afab029cecb84ebcbc11f2a803bebea515ab4890c00b1c5a122d2a4102"
+    },
+    "experiments/01_questionnaires/results/daniel_isherwood_001/dsm5tr_l1.json": {
+      "bytes": 1428,
+      "sha256": "6f97da5cafa61d4c6a0b6155c9c4a92c439dd7416dff9c2604e3c032300d270c"
+    },
+    "experiments/01_questionnaires/results/daniel_isherwood_001/lpfs_bf2.json": {
+      "bytes": 371,
+      "sha256": "f11619e43cdc4aab5b47d78b29d86bada3f0205a578aa72361c3247b14fd1a64"
+    },
+    "experiments/01_questionnaires/results/daniel_isherwood_001/phq9.json": {
+      "bytes": 352,
+      "sha256": "004a9b163ebf1d5792286e3f71b0f1f87353a0986ef36e32bac6797469a2a097"
+    },
+    "experiments/01_questionnaires/results/daniel_isherwood_001/pid5bf.json": {
+      "bytes": 1276,
+      "sha256": "30a314845860488ca48ae9fa200bf5fb5fb602ff02281f8fb69bc54e71764d6f"
+    },
+    "experiments/01_questionnaires/results/daniel_isherwood_001/snap2.json": {
+      "bytes": 6241,
+      "sha256": "aa196734bc79fc5ee308d13cf4eab248ca9476e6ffded59ecbc3dd8a8de95f81"
+    },
+    "experiments/01_questionnaires/results/jason_smith_001/bes.json": {
+      "bytes": 536,
+      "sha256": "1b2877b6894409990317f1373516b5640a88febdcbf6b18a445db5f8d5f0ef79"
+    },
+    "experiments/01_questionnaires/results/jason_smith_001/dsm5tr_l1.json": {
+      "bytes": 1427,
+      "sha256": "7e585230050ed54863ac86c76a31fcade2402836fda490cdd2144100e1b8cd27"
+    },
+    "experiments/01_questionnaires/results/jason_smith_001/lpfs_bf2.json": {
+      "bytes": 366,
+      "sha256": "6ba2bad84385636f07af4a98dcb5d6e3b39a6213b52e4565f83609afd655a30f"
+    },
+    "experiments/01_questionnaires/results/jason_smith_001/phq9.json": {
+      "bytes": 345,
+      "sha256": "eeff2c91a1a4f49820ecc53619f528113c5f4653d84ada052203824b4115540d"
+    },
+    "experiments/01_questionnaires/results/jason_smith_001/pid5bf.json": {
+      "bytes": 1273,
+      "sha256": "79d783860bf0e8c5c4df05061502db2b51b0b50d2e9e6aea4381cd27d29056b7"
+    },
+    "experiments/01_questionnaires/results/jason_smith_001/snap2.json": {
+      "bytes": 6236,
+      "sha256": "c19dd3e0498a90e61dffb22fa5e0ad1d8b042c843d6b7a1cfe990fa9716a4513"
+    },
+    "experiments/01_questionnaires/results/juanita_delgado_001/bes.json": {
+      "bytes": 542,
+      "sha256": "d7acc5d0a45814dda142b1416233cff3bf35ed793516dd1e19c4d397d6352c0c"
+    },
+    "experiments/01_questionnaires/results/juanita_delgado_001/dsm5tr_l1.json": {
+      "bytes": 1421,
+      "sha256": "2ffac08867c1dc0cdc1f63e8ed22d59d96952ffde6d228400f563efc979f524b"
+    },
+    "experiments/01_questionnaires/results/juanita_delgado_001/lpfs_bf2.json": {
+      "bytes": 371,
+      "sha256": "4d8fba05c2fb32f4ca2f63c7d9eab1ecf747fbd69651c21ebe9bd5a4c60a6576"
+    },
+    "experiments/01_questionnaires/results/juanita_delgado_001/phq9.json": {
+      "bytes": 351,
+      "sha256": "92eb71af975922da2f5bbe7ecd3a73de144b4c070f6b2a2b1a22f3eada3469a2"
+    },
+    "experiments/01_questionnaires/results/juanita_delgado_001/pid5bf.json": {
+      "bytes": 1269,
+      "sha256": "dc98bba288a5ee99b66bd408954211862a5f91f96d19dd737527f9011564146d"
+    },
+    "experiments/01_questionnaires/results/juanita_delgado_001/snap2.json": {
+      "bytes": 6240,
+      "sha256": "be25f2419e4d145844a7da50e6494d002ceb9ad93ae95ce950a859303b3c5d31"
+    },
+    "experiments/02_missteps/clinician_ratings/expected_summary.csv": {
+      "bytes": 897,
+      "sha256": "4cd5a7b3dfba5d84fd6bc4709c55b2a6b1f8c336b2075b77fc811f2cf6fea741"
+    },
+    "experiments/02_missteps/clinician_ratings/transcript_ratings.csv": {
+      "bytes": 44131,
+      "sha256": "0ca5294b9f7d7980c754a3947ebc7a698fbcda9e46999530382ceb2705bcc7c7"
+    },
+    "experiments/02_missteps/expected_metrics.csv": {
+      "bytes": 355,
+      "sha256": "257c1eb52afc0db5fd77b4848d9455ecaf5cf7baa1f6d135436057040af8754e"
+    },
+    "experiments/02_missteps/predictions.json": {
+      "bytes": 14481,
+      "sha256": "b5ee34ce9597588c3071c18f5cc55ecf3c219ac826c44422814dee8b88f5083a"
+    },
+    "experiments/02_missteps/source_workbook_hashes.json": {
+      "bytes": 165,
+      "sha256": "f6d21433f963d4928e6616810db42796c9aeddcca4dc3b430c3551852338778a"
+    },
+    "experiments/02_missteps/turn_labels.csv": {
+      "bytes": 12500,
+      "sha256": "9a5274ec520c9dee286e089808de9ddb77eefe1e73970cc01930c7b263df21e4"
+    },
+    "experiments/EXCLUSIONS.json": {
+      "bytes": 105617,
+      "sha256": "5cd3af9dd1328810d5ca62ef4c30b8fafbe409cff8c7867eaf87df9483c42abc"
+    },
+    "experiments/README.md": {
+      "bytes": 1769,
+      "sha256": "6d5b7751376714b4f74226b50c635acdcc82caa8e067416aedb40991f48720f4"
+    },
+    "experiments/_analysis.py": {
+      "bytes": 8107,
+      "sha256": "c2888eeeb8be6078f2a8842457d0e4587651e1ec94d1d53d38283430ed95e331"
+    },
+    "experiments/evidence/outputs/full-saved-memory-comparison-2026-10-01/review/private/mapping.json": {
+      "bytes": 2046,
+      "sha256": "6b77fdd4e66b0db88928a9e2aa421f74998b821464d170dcf01cbb5618c912c6"
+    },
+    "experiments/evidence/outputs/full-saved-memory-comparison-2026-10-01/review/ratings/a.json": {
+      "bytes": 18832,
+      "sha256": "42fdfa7be7d8aec527b66ba4b88d4bc5348f3f254430e3a3e4ad753086eba861"
+    },
+    "experiments/evidence/outputs/full-saved-memory-comparison-2026-10-01/review/ratings/b.json": {
+      "bytes": 18832,
+      "sha256": "42fdfa7be7d8aec527b66ba4b88d4bc5348f3f254430e3a3e4ad753086eba861"
+    },
+    "experiments/evidence/outputs/full-saved-memory-comparison-2026-10-01/runtime-02/answers.jsonl": {
+      "bytes": 4701,
+      "sha256": "cba62cea195e70fb24f6ddcacef14d06c84239015d370f3b6433942183c549fa"
+    },
+    "experiments/evidence/outputs/full-saved-memory-comparison-2026-10-01/schedule.json": {
+      "bytes": 9345,
+      "sha256": "d459f554ed0287e60de350ff23aff615ef74344057335e5ee53ce65cb06e35cd"
+    },
+    "experiments/evidence/outputs/memory-comparison-run-2026-09-29/review/export-001/private/mapping.json": {
+      "bytes": 30982,
+      "sha256": "722b78b07779035ecc77645b920c80fee44caba9c34deeb778a1b1f72a670752"
+    },
+    "experiments/evidence/outputs/memory-comparison-run-2026-09-29/review/ratings/adjudicator.json": {
+      "bytes": 282,
+      "sha256": "10904ae4da9e0600c8d24aeda3f2dc5c40a528b94ad6af89c34a63dc4edd5bb6"
+    },
+    "experiments/evidence/outputs/memory-comparison-run-2026-09-29/review/ratings/evaluator_a.json": {
+      "bytes": 45167,
+      "sha256": "c13c9136331701b5bd0cd79db92e84b2261e5de108eda28fc77423f2305b6e6e"
+    },
+    "experiments/evidence/outputs/memory-comparison-run-2026-09-29/review/ratings/evaluator_b.json": {
+      "bytes": 45176,
+      "sha256": "98844cab8e45be04d63877e8a4bee92cf98872fae07ebecf1018cfb7c2c604f9"
+    },
+    "experiments/evidence/outputs/memory-length-stress-2026-09-30/review/private/mapping.json": {
+      "bytes": 5446,
+      "sha256": "d9642679caa54571260c2694c6d3ee98efcf2a50a0c4f6e677f9836e7a2d9de0"
+    },
+    "experiments/evidence/outputs/memory-length-stress-2026-09-30/review/ratings/a.json": {
+      "bytes": 50417,
+      "sha256": "6b48038a3eaaca2b14d0d399f05fb31c8fbd3846caf9bd203ca70ffa5aa16810"
+    },
+    "experiments/evidence/outputs/memory-length-stress-2026-09-30/review/ratings/b.json": {
+      "bytes": 50417,
+      "sha256": "6b48038a3eaaca2b14d0d399f05fb31c8fbd3846caf9bd203ca70ffa5aa16810"
+    },
+    "experiments/evidence/outputs/memory-length-stress-2026-09-30/runtime-02/answers.jsonl": {
+      "bytes": 7650,
+      "sha256": "3cb20a1038e4896d35a8e14365ec5b0053f536386f89e89501865317572d078f"
+    },
+    "experiments/evidence/outputs/memory-length-stress-2026-09-30/schedule.json": {
+      "bytes": 7029,
+      "sha256": "52449c78d77423ed84dc91ff3423bff6cc955e0e581ceb9e7fda66ea57f91b05"
+    },
+    "experiments/evidence/outputs/openrouter-compression-length-2026-09-30/review/private/mapping.json": {
+      "bytes": 3483,
+      "sha256": "19fcae8259af2e49fb360a8088a2d107861afd49ae5ec7e68ddf944e73d4625f"
+    },
+    "experiments/evidence/outputs/openrouter-compression-length-2026-09-30/review/ratings/a.json": {
+      "bytes": 31374,
+      "sha256": "fd7d8315847c1825d3125eb680ff1bbc5179c843c0180293226cb5bf5ab283ca"
+    },
+    "experiments/evidence/outputs/openrouter-compression-length-2026-09-30/review/ratings/b.json": {
+      "bytes": 31374,
+      "sha256": "fd7d8315847c1825d3125eb680ff1bbc5179c843c0180293226cb5bf5ab283ca"
+    },
+    "experiments/evidence/outputs/openrouter-compression-length-2026-09-30/runtime/answers.jsonl": {
+      "bytes": 3855,
+      "sha256": "dc4988c9f9ab21dd4678a5623cb949f910af1684c99811e3751e01f63945ffdd"
+    },
+    "experiments/evidence/outputs/openrouter-compression-length-2026-09-30/schedule.json": {
+      "bytes": 3599,
+      "sha256": "f66a0aceced729ca2240013686b2f5730256763ebf3ba7a73c4d24c4605a9994"
+    },
+    "experiments/evidence/outputs/regional-memory-compression-2026-09-30/review/private/mapping.json": {
+      "bytes": 15702,
+      "sha256": "1ebd97a57a28a133acdbc10996e09a68a4f3a91becf0e6e6ce6792a24e63dfc3"
+    },
+    "experiments/evidence/outputs/regional-memory-compression-2026-09-30/review/ratings/a.json": {
+      "bytes": 151158,
+      "sha256": "b2a57c5d439a3ba55ba1ca358711d40cd6cc41e8570cbc18377b48eb387cbc28"
+    },
+    "experiments/evidence/outputs/regional-memory-compression-2026-09-30/review/ratings/b.json": {
+      "bytes": 151158,
+      "sha256": "b2a57c5d439a3ba55ba1ca358711d40cd6cc41e8570cbc18377b48eb387cbc28"
+    },
+    "experiments/evidence/outputs/regional-memory-compression-2026-09-30/runtime/answers.jsonl": {
+      "bytes": 17499,
+      "sha256": "9a01df07250fc552bdbb1fb289243f03959bcd6c689197368c56d855356f5b4d"
+    },
+    "experiments/evidence/outputs/regional-memory-compression-2026-09-30/schedule.json": {
+      "bytes": 22953,
+      "sha256": "a66463de3e27b2463d09bad5bab17dcb5ad1d2ac45a41ce8133e577544019c3c"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_01/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_02/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_03/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_04/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_05/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_06/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_07/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_08/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_09/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_10/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_11/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_12/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_13/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_14/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_15/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_16/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_17/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_18/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_19/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_20/phq9.json": {
+      "bytes": 242,
+      "sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_01/phq9.json": {
+      "bytes": 245,
+      "sha256": "4116f22c607751dbd7090569b2f85237b4b606bb57f1725170b9c8a1c8e1129e"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_02/phq9.json": {
+      "bytes": 245,
+      "sha256": "83f36ac855cb5c685b635ac254c9ea080e1330a4a5e33460af57f5acbb4f1f70"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_03/phq9.json": {
+      "bytes": 245,
+      "sha256": "aeea5b63ca6c2e969479bb5dd62a05fe66825bd9ead8052bd5aaf48fde01c776"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_04/phq9.json": {
+      "bytes": 245,
+      "sha256": "eda92595102b07e9f60f8a55df595afe60a520c5a3b034b8fc103940cfed1634"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_05/phq9.json": {
+      "bytes": 245,
+      "sha256": "b64eec8f8caf6cc3d76e84f348dddbdf5aedac66e061335732618da8bae107b1"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_06/phq9.json": {
+      "bytes": 245,
+      "sha256": "72f290a1225075a3fc04e9b9edc6ca928b844e1ac86816c47b46c16a39528490"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_07/phq9.json": {
+      "bytes": 245,
+      "sha256": "a5a30fe35dd0ee9518527a5184636854dae295b0b87a01c20734b783d4172fde"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_08/phq9.json": {
+      "bytes": 245,
+      "sha256": "a5a30fe35dd0ee9518527a5184636854dae295b0b87a01c20734b783d4172fde"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_09/phq9.json": {
+      "bytes": 245,
+      "sha256": "4116f22c607751dbd7090569b2f85237b4b606bb57f1725170b9c8a1c8e1129e"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_10/phq9.json": {
+      "bytes": 245,
+      "sha256": "9c05c79c1349c5977d1c6faffce10e3a17e198d27b4623c2e7805820f8167869"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_11/phq9.json": {
+      "bytes": 245,
+      "sha256": "42816cbf26d2837a28c98512fee36bb18140cfd860f56f34f3897fbe1bdab8de"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_12/phq9.json": {
+      "bytes": 245,
+      "sha256": "42816cbf26d2837a28c98512fee36bb18140cfd860f56f34f3897fbe1bdab8de"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_13/phq9.json": {
+      "bytes": 245,
+      "sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_14/phq9.json": {
+      "bytes": 245,
+      "sha256": "42816cbf26d2837a28c98512fee36bb18140cfd860f56f34f3897fbe1bdab8de"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_15/phq9.json": {
+      "bytes": 245,
+      "sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_16/phq9.json": {
+      "bytes": 245,
+      "sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_17/phq9.json": {
+      "bytes": 245,
+      "sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_18/phq9.json": {
+      "bytes": 245,
+      "sha256": "a837a969ce7c7c5fe8f395847e4f1b7d92ca8d9c106302fd30b482a32b7c64f8"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_19/phq9.json": {
+      "bytes": 245,
+      "sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_20/phq9.json": {
+      "bytes": 245,
+      "sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_01/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_02/phq9.json": {
+      "bytes": 247,
+      "sha256": "d1a8514f953731428f24f662afe482640ffbe760205f3b30933841a5471a31d1"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_03/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_04/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_05/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_06/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_07/phq9.json": {
+      "bytes": 247,
+      "sha256": "d1a8514f953731428f24f662afe482640ffbe760205f3b30933841a5471a31d1"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_08/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_09/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_10/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_11/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_12/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_13/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_14/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_15/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_16/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_17/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_18/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_19/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_20/phq9.json": {
+      "bytes": 248,
+      "sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_01/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_02/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_03/phq9.json": {
+      "bytes": 242,
+      "sha256": "584092c5593ad9e2a5c7191f5c255db510e59b932e27c89c6b53a320d94432bc"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_04/phq9.json": {
+      "bytes": 242,
+      "sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_05/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_06/phq9.json": {
+      "bytes": 242,
+      "sha256": "de7c25784df1234819c8aaabc738759518c8383cf780ee856426dd9f0062d203"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_07/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_08/phq9.json": {
+      "bytes": 242,
+      "sha256": "422b16419de4105b696679dc092b0c0f588aa1399ab085a80e2e347bb18a942a"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_09/phq9.json": {
+      "bytes": 242,
+      "sha256": "de7c25784df1234819c8aaabc738759518c8383cf780ee856426dd9f0062d203"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_10/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_11/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_12/phq9.json": {
+      "bytes": 242,
+      "sha256": "584092c5593ad9e2a5c7191f5c255db510e59b932e27c89c6b53a320d94432bc"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_13/phq9.json": {
+      "bytes": 242,
+      "sha256": "584092c5593ad9e2a5c7191f5c255db510e59b932e27c89c6b53a320d94432bc"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_14/phq9.json": {
+      "bytes": 242,
+      "sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_15/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_16/phq9.json": {
+      "bytes": 242,
+      "sha256": "124b7f2dde65c8b1779c407e269b3ec9bfab9b92bf4fb055139a4c721ebf0ae6"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_17/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_18/phq9.json": {
+      "bytes": 242,
+      "sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_19/phq9.json": {
+      "bytes": 242,
+      "sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_20/phq9.json": {
+      "bytes": 242,
+      "sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_01/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_02/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_03/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_04/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_05/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_06/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_07/phq9.json": {
+      "bytes": 247,
+      "sha256": "c35d3d0178cad4c0c0aeb7070313cef6e8862c886ee579398dddecb486c30be0"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_08/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_09/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_10/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_11/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_12/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_13/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_14/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_15/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_16/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_17/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_18/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_19/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_20/phq9.json": {
+      "bytes": 247,
+      "sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351"
+    },
+    "experiments/evidence/outputs/structured-regional-comparison-2026-10-01/review/private/mapping.json": {
+      "bytes": 4179,
+      "sha256": "529f1845e32e466774f1bd4d146a651d35b67d750fb814e03670a72f1918960c"
+    },
+    "experiments/evidence/outputs/structured-regional-comparison-2026-10-01/review/ratings/a.json": {
+      "bytes": 37925,
+      "sha256": "3649ad9e24cac097bb0521df069c1174950fb282f1d3b7c76b38ac8f9490d126"
+    },
+    "experiments/evidence/outputs/structured-regional-comparison-2026-10-01/review/ratings/b.json": {
+      "bytes": 37925,
+      "sha256": "3649ad9e24cac097bb0521df069c1174950fb282f1d3b7c76b38ac8f9490d126"
+    },
+    "experiments/evidence/outputs/structured-regional-comparison-2026-10-01/runtime/answers.jsonl": {
+      "bytes": 4626,
+      "sha256": "08b44077688743eff65c85cefcce6b6577613d4604cb6af3e78347b20ebb079d"
+    },
+    "experiments/evidence/outputs/structured-regional-comparison-2026-10-01/schedule.json": {
+      "bytes": 9495,
+      "sha256": "d3b76772a6f6645a3a9fc25ec9074d83211728e5065115f4dc0272be638f23f1"
+    },
+    "experiments/expected_results.json": {
+      "bytes": 21243,
+      "sha256": "9770cf8f2ee6d3d4a5a06e965c6cfcb0ede25fb1c43a29750b721b25eed39490"
+    },
+    "experiments/missteps.py": {
+      "bytes": 2671,
+      "sha256": "37fcfec4bd2a6b263fd90860c49c6e80934a9a85200919f67c516d2432cb013f"
+    },
+    "experiments/run.py": {
+      "bytes": 4030,
+      "sha256": "100d9142b19f70b0f56d04db29485bf763e3081eade4c3cdef9862b9edff66ec"
+    },
+    "experiments/scoring.py": {
+      "bytes": 7062,
+      "sha256": "9b5abea59e015b71b695b49d1145f76ce72187aff7a0b23d80f31fb285c3172e"
+    },
+    "model/.env.example": {
+      "bytes": 518,
+      "sha256": "10155026a7efb12b4ef57b06cbad170ce99cb6eba8cb42ca98bf5943dc8e0431"
+    },
+    "model/.gitignore": {
+      "bytes": 56,
+      "sha256": "35149d6e8b08a60c0679c13b926aa5fcddaed7431b09699409b2875d07dd16c9"
+    },
+    "model/LICENSE": {
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "model/README.md": {
+      "bytes": 2865,
+      "sha256": "b03f4c7e76ea9ded4c13a8e936cf835d003bbbe7d6a5e2db0ab5ec7005771dff"
+    },
+    "model/agent/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model/agent/api/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model/agent/api/app.py": {
+      "bytes": 21216,
+      "sha256": "c94a10606b98c8b6f047a73d14be773a35d603e31eaa6b8bc95f261ea0e52360"
+    },
+    "model/agent/core/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model/agent/core/emotion_model.py": {
+      "bytes": 4915,
+      "sha256": "978ee99bead10dd4d099c2f8a7f6efb8fe36aa108a3b894473875bc2ec2569aa"
+    },
+    "model/agent/core/encoder.py": {
+      "bytes": 580,
+      "sha256": "fce225b6be0e62fc03ba3709780ee26d57528fe1cb9e3ffff7fd347c2ead57c8"
+    },
+    "model/agent/core/factual_memory.py": {
+      "bytes": 22539,
+      "sha256": "9ffe48eabc80abd051261485f316cf23488ae2f5bbc60e08c3d0ba25abf62451"
+    },
+    "model/agent/core/langgraph_builder.py": {
+      "bytes": 56963,
+      "sha256": "141d1c2c187e04a7d7c056dead408a51b013687b5a30dd419d03c843e35159a0"
+    },
+    "model/agent/core/llm_provider_base.py": {
+      "bytes": 2226,
+      "sha256": "4cf227a7e86a48d22042fbaeb79a9387a2a9f3271729eefc2140d085c50173fc"
+    },
+    "model/agent/core/llm_provider_local.py": {
+      "bytes": 5354,
+      "sha256": "e6a99defb4415991c0d861af87def381717111a6f5b8b40b5eb29cb1e1c09612"
+    },
+    "model/agent/core/llm_provider_ollama.py": {
+      "bytes": 7518,
+      "sha256": "fe6334f1a36cdd2cdb0292b6c2581873bc5d71bcf12876f60b4789341f40d6b8"
+    },
+    "model/agent/core/llm_provider_vertex.py": {
+      "bytes": 13565,
+      "sha256": "f994b251f367beb9dd946cef970a401a7136d76fc276f9ebe779fa6ca5a382fb"
+    },
+    "model/agent/core/llm_runner.py": {
+      "bytes": 4346,
+      "sha256": "11fcb842485b4463fb4a56e3a207c4aaff6988bf0a9c90b6a5447fd29e1169f4"
+    },
+    "model/agent/core/memory_store.py": {
+      "bytes": 2809,
+      "sha256": "38cd981f48405abb60f64507c27d6b90bf6caaf005676dca893191c5b55d61cb"
+    },
+    "model/agent/core/patient_profile.py": {
+      "bytes": 29910,
+      "sha256": "2b1e6fbf6c1d032b2552e045a96e77aaaada6a4eb059e4962cbccb21983a8a0d"
+    },
+    "model/agent/core/prompt_builder.py": {
+      "bytes": 14370,
+      "sha256": "90c304f30f0a9732b062d8ac2d70fb739b0f5899488f02d85edd695fabfbab5f"
+    },
+    "model/agent/core/questionnaire_catalog.py": {
+      "bytes": 2000,
+      "sha256": "09b04b0d0e2d8062413b9b4842281f8e6b2d10b21b5dbba22ebe4efdb6736209"
+    },
+    "model/agent/core/questionnaire_runner.py": {
+      "bytes": 29157,
+      "sha256": "e53cf0a63fdc9cb75fe008689652a2131c0ff7a5efbae388e827de3599c34464"
+    },
+    "model/agent/core/safety.py": {
+      "bytes": 2670,
+      "sha256": "da78bc9205129b4b40f833e8988a0610b302cbefdd6cd90c4cb7ea9909fe3006"
+    },
+    "model/agent/core/vertex_rate_limit.py": {
+      "bytes": 10875,
+      "sha256": "8f52fb2b7057abe150f88c0c9837092b23a17a75149111066f6dc96d5c66c219"
+    },
+    "model/agent/requirements-runtime.txt": {
+      "bytes": 220,
+      "sha256": "21fe886c0de6b7dea425d19bfbf28dbafef149b86137d6a65de28c34765be40e"
+    },
+    "model/agent/requirements-test-lock.txt": {
+      "bytes": 1538,
+      "sha256": "c096420df87d5ef5c03c1a977d748bf1b0a0a6f2c6d226f4de81b00c27b733b2"
+    },
+    "model/agent/requirements-test.txt": {
+      "bytes": 352,
+      "sha256": "43a7eb4c86f24e3d31e572159ee16e59c4dcc58e2e66d6ffea5e27d5bea0774d"
+    },
+    "model/agent/test_api_smoke.py": {
+      "bytes": 9426,
+      "sha256": "924ca6ddbfaf1e0627d5082d72252f91bd4cb8b6d7be10b7674835b4bf709342"
+    },
+    "model/agent/test_encoder.py": {
+      "bytes": 1780,
+      "sha256": "bd8202bb0ed7c9ed3a8509e0930e6eac597f07a1f3aeb067ae7a3811c832a8df"
+    },
+    "model/agent/test_factual_memory.py": {
+      "bytes": 26179,
+      "sha256": "1b70a48796a8b2c3828860b4a28bfbc349e923ebc21d4ae01f2065ce15d9ce67"
+    },
+    "model/agent/test_memory_quarantine.py": {
+      "bytes": 14650,
+      "sha256": "d6e8f5ac3a52730dd7301de40edc7540b2de64aab830e74392a4deb8c99cd556"
+    },
+    "model/agent/test_safety.py": {
+      "bytes": 13076,
+      "sha256": "3283fa5ad24594edbee68f09cd5e401de3a957c7ec6f6fb8cc933af258fe617d"
+    },
+    "model/agent/test_session_memory.py": {
+      "bytes": 25661,
+      "sha256": "0729c72aa372d100231e88197d586f2bb28f722ca152f25be73206c5d973e14a"
+    },
+    "model/agent/test_vertex_generation.py": {
+      "bytes": 6096,
+      "sha256": "5d53e12430e18f48f4aadacc2415776b8aa46625780918c404719bff42ec360f"
+    },
+    "model/agent/test_vertex_rate_limit.py": {
+      "bytes": 12241,
+      "sha256": "728589bfa2c0a54dc4a9283744513774dafb998abb56be481357581a7ab53970"
+    },
+    "model/agent/utils/run_logger.py": {
+      "bytes": 9894,
+      "sha256": "1d86a0e6f503bb45aea1e9d954237092e614cdc9dca59b5f6e21727a68b96f11"
+    },
+    "model/agent/utils/session_opening.py": {
+      "bytes": 2573,
+      "sha256": "ad0376ef3097b319ac9e89b0c2374c52c96416ca4996d4ce242275cf8fac4161"
+    },
+    "model/data/icd11_templates/README.md": {
+      "bytes": 122,
+      "sha256": "58d3dd25021b976d786cc897bc30120abbf13048972df3a4903569efaa573abc"
+    },
+    "model/data/patients/demo_original_001.yaml": {
+      "bytes": 1024,
+      "sha256": "10e8794c26d7d71ea5103ef842b772bb95df0822da7ac6a39d1bc95b055e7d35"
+    },
+    "model/data/questionnaires/README.md": {
+      "bytes": 197,
+      "sha256": "74bdca250a6ce5b1ad96c2434f3d7971ebf78da12e680b67ca153da221745b5d"
+    },
+    "model/data/topics_tree.json": {
+      "bytes": 8247,
+      "sha256": "96d94bec6d86a32e7957a06d58216e5f2b9eeb3b10c538312a280d649e1d3b98"
+    },
+    "model/scripts/check_encoder.py": {
+      "bytes": 1894,
+      "sha256": "59079178cb622018356cc48f1035b14aaf9b5a55286958fcb8b1af0e65d8b954"
+    },
+    "model/tests/test_emotion_model_salience.py": {
+      "bytes": 1822,
+      "sha256": "3ded7187c2067c1889e6812f962f367b0f1a15a5a68a1c676db6dbb181e3a283"
+    },
+    "model/tests/test_prompt_builder_identity.py": {
+      "bytes": 1361,
+      "sha256": "86e1cf4b737c2b19d9f3f0f5d71f5ce1a40af68238c269dc58669a2966e0b08f"
+    },
+    "model/tests/test_questionnaire_catalog.py": {
+      "bytes": 2551,
+      "sha256": "8516a64a778e64b682d5865975efcdfbe056873abe1b7f38041671aa61581821"
+    },
+    "tools/build_public_package.py": {
+      "bytes": 26766,
+      "sha256": "a1e0efd89a0700e1895f103c0322396371f1fb532f5202b7920d259d3903b347"
+    }
+  }
+}

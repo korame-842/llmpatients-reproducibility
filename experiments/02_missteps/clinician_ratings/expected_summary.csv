@@ -1,0 +1,13 @@
+rater_id,dimension_id,dimension_label,n,mean
+rater_1,profile_coherence,Profile coherence,20,4.30
+rater_1,multi_session_continuity,Multi-session continuity,20,4.50
+rater_1,clinical_plausibility_for_training,Clinical plausibility for training,20,3.70
+rater_1,resistance_alliance_realism,Resistance/alliance realism,20,4.20
+rater_1,educational_usefulness,Educational usefulness,20,2.95
+rater_1,traceability_supervision_usefulness,Traceability/supervision usefulness,20,2.90
+rater_2,profile_coherence,Profile coherence,20,4.95
+rater_2,multi_session_continuity,Multi-session continuity,20,5.00
+rater_2,clinical_plausibility_for_training,Clinical plausibility for training,20,5.00
+rater_2,resistance_alliance_realism,Resistance/alliance realism,20,4.80
+rater_2,educational_usefulness,Educational usefulness,20,5.00
+rater_2,traceability_supervision_usefulness,Traceability/supervision usefulness,20,5.00

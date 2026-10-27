@@ -1,0 +1,1776 @@
+{
+  "policy": "Conservative public export: no instrument wording, manuals, scoring keys, normative tables, casebook narratives, original transcripts, artwork, nested archives or private credentials.",
+  "excluded_or_replaced_zip_members": [
+    {
+      "source_path": "README.md",
+      "reason": "Replaced with public-edition documentation and integrity metadata",
+      "sha256": "cac697af5784fb15e2ff3c1f5c61961adff4300c5401c99c94e09c77b1192a9b"
+    },
+    {
+      "source_path": "VERSIONS.json",
+      "reason": "Replaced with public-edition documentation and integrity metadata",
+      "sha256": "cf2c6b7b452d4b8250daa309bb9f0e13f20d4adf0c58f91afb323d4bbcd46194"
+    },
+    {
+      "source_path": "app/patients/alex_carter_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "eff6430fddd6678ba1d0b977f4611063b3449e76d26252baaf78fdc436d46c37"
+    },
+    {
+      "source_path": "app/patients/alex_carter_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "ed8d69a8e5b4e69f15bdea3280f2cc7d1bd37330862a10ab4f7612de6794da00"
+    },
+    {
+      "source_path": "app/patients/crystal_smith_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "19dca50e3639b3f2478b34327b00b5859f554f7c852c15b50670a8bca36c88c4"
+    },
+    {
+      "source_path": "app/patients/crystal_smith_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "6a566342b94bce41df1c13b627164f82f3b310db45b7ad716d830630a6481120"
+    },
+    {
+      "source_path": "app/patients/daniel_isherwood_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "a0464dd7263b23888bd858f9634670bade4a8ba6e478d10ef8b3bdc8c6c977d4"
+    },
+    {
+      "source_path": "app/patients/daniel_isherwood_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "de2416d3f14b804fba8112b2c8c68fc77d9e54f56f28a6f2f4fc360911af8684"
+    },
+    {
+      "source_path": "app/patients/jason_smith_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "aa2c432b9e38883dbe080efcac2ed6d863b9c5f023ac90480a81bbd59a119946"
+    },
+    {
+      "source_path": "app/patients/jason_smith_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "87ef4b9118f5f1c08fcd97e382961d8c560f9dc819f767f9326ccfe9229e8670"
+    },
+    {
+      "source_path": "app/patients/juanita_delgado_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "a8d3c6217aad0b1ca3c9e26d755b859f605090cd17b9bbb227f94f0a53d488f3"
+    },
+    {
+      "source_path": "app/patients/juanita_delgado_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "1a55ef2f3f56581cba3cf744d0acf0759e1be9dc5b0b0a44b405cca0f0e47879"
+    },
+    {
+      "source_path": "app/public/apple-touch-icon.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "496983190b67f7331c77989a650023c9083d6371122aaacecbd774202ff6739d"
+    },
+    {
+      "source_path": "app/public/favicon-16x16.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "496983190b67f7331c77989a650023c9083d6371122aaacecbd774202ff6739d"
+    },
+    {
+      "source_path": "app/public/favicon-32x32.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "496983190b67f7331c77989a650023c9083d6371122aaacecbd774202ff6739d"
+    },
+    {
+      "source_path": "app/public/favicon.ico",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "868824723e621cc00b2e16065947b7889b637a66a6267193464493a34a607b8e"
+    },
+    {
+      "source_path": "app/public/images/home/hero2.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "21b899f57d115652765a7b3b144d4e7aabb545f4a68ae490f275b24c478800d9"
+    },
+    {
+      "source_path": "app/public/images/logo.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "496983190b67f7331c77989a650023c9083d6371122aaacecbd774202ff6739d"
+    },
+    {
+      "source_path": "app/public/images/logo.webp",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "117b043449e9c0444674a5fc6cc90d36355dac66f6d6aab15867f48eb92da3e7"
+    },
+    {
+      "source_path": "app/public/images/og-image.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "496983190b67f7331c77989a650023c9083d6371122aaacecbd774202ff6739d"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/base.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "25c5b51c0f3dc20c83b6ca046dd9723d26fc26e3118bb024a7dec47b5f33bbc0"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/care.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "daff6ae37b24eb7fe147b885ca1b813eb6d28b957a87733432e4383bb1725e86"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/fear.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "da778a0123a04e5fbb0bd25054720b290a00c325076bae5a4eb29c79e57f3f45"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/listening.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "85362d66bd6e9f49ea8dafc4bd444774e63f2d54e6fb864a9a61c1ad150c7e6d"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/lust.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "9f0a20782aef09e7b2d11c0d81e8e4cd704a7574425ce36920b61ce828c00292"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/panic_grief.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "cb50b74c1af0bb845ac06d8f411c5976cd6ba570c29e5a9f879061ab6cc57970"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/play.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "70548d2e6c8431a87c9cb0ea536f2ec857e31915660965113709fc7f7b65b696"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/rage.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "34d6f0f31456a329102d7a83236f17f54719c23ff6e6b7d4c1fd0fc11bc71ce7"
+    },
+    {
+      "source_path": "app/public/images/patients/alex_carter/seeking.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "114ba0d9ab2d4ac24b472da945a142d8c6deccd832ad090e35704feb205cceb5"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/base.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "e263436e132c539437e2d0d337b613aadc3ab22d00d1df74afa26a528ca33812"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/care.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "c9ce6dffeed5ef6cd1927e6d8e0b75f8e9d6b23ae046093dafc4dd7f56cb05ba"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/fear.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "b6fc1a6e899d66067b436395d67341fd38660248af911865c8618525ede8d9f4"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/listening.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "f71098c595f0e1ca97ee23f1de03df76465e86dbcde073bed405f985d39ac0a2"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/lust.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "04721ab4e3bf27418d43b199be352ef9aecafc92292a8817b6e4d8f0956d57b6"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/panic_grief.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "272f126298cceb2fe0578bf92a54a7c18d9c69f741eb618442f56d56f4541db1"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/play.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "73b647c462f9fd635a6788d2b00d539b94accb23e90d6142f289d583005045ca"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/rage.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "6aa5af6ad84f9a4437a38ba14cac80b3175ebc56e4cfbbcd80cfafb70a995d5e"
+    },
+    {
+      "source_path": "app/public/images/patients/crystal_smith/seeking.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "37f2e1216b179527bd8a2d2c2a2afcc8e9803eff4d540a8737ce8adb65b7d503"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/base.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "7b4ac221b6196ac677bb5c01c2bca274f789e22221fc4fc090c47e0be5672a51"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/care.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "e6ad7a1dbf9c4a8525e4ad9650f2ede65a2f60db8b9c564a303799f13cd2ffc8"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/fear.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "4b35801b88ebe78a2335ef3cca95df9db1a15b85d48de6f40303590a0fdaeaca"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/listening.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "82afde6ed31029b4eebcab3ff60d87ca43379eadf070533b2fda10a1e1df8330"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/lust.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "ebe83ef72603ec928b66affc21871613a8cfff181304196230298a7683526870"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/pain-grief.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "de9bc867861ea960fb825c3840c112e0dee9c9fe892714ccde4f7ac816aca469"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/play.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "307e0235e9f0ffe18223d8fc7f58a5bcc60bd84e10c5dff93c9d0db728008e73"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/rage.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "be2f25d33a744dfd94911d90baf503725f0ca8be87b521481dcf21f7cf2bab6c"
+    },
+    {
+      "source_path": "app/public/images/patients/daniel_isherwood/seeking.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "ccef72af22e0e3d76fc36174bfa18e68c1f6a1f3f20ccd3c5fdf72b6d7cf1f2f"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/base.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "6b0947e30e01102109d2165616b7d45fa59b0f900453ced5d10610827945a1a3"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/care.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "29bb6de953cd41aef3089eb78fc76a18b51e15ec4de9c58da3911c92a6370934"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/fear.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "bea565b16634aa7fc59222ffcda48c27dc6a9604b68eb90fde9e42ecca09df16"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/listening.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "07fc838fba6559c2688d8f85250ed0f1197aa7c2cba9cd0cc0aaa754d69c2294"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/lust.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "21448bc1f938432ce929fd7e719f9a3abc639394431c4d3db50ff36ed87647b0"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/panic-grief.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "d143dcbaa5ef7cc08a3ec1ced96eb07066aedee8b579131ed5d1c7cc39f4a577"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/play.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "014d493ab82ef673eb3d8fb948d20941b788deb086d00080a1ea535045110603"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/rage.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "faf9d3747dd0b4b5aec25f964abf0ccc66eae2a4f1ec6770e1dfca1fced3afd5"
+    },
+    {
+      "source_path": "app/public/images/patients/jason_smith/seeking.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "032191611a89e0c41f0c829d492bbb38152711f88f2f59a1f5efbb4d6741ee99"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/base.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "f00cef806a071cd536d716fa73f24cffb7273e1d0c171e6c9790e54ba0ae5285"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/care.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "c48896860aa64a50825d9f25159f97d0651e41d7038f27a37e02cf105cc2a404"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/fear.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "566aa490f1b8cc0cbfcef7770896884db43aaa94e72aa4805dc0cea5574507f5"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/listening.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "135757952fca97545e800014999f70cc1d0a7a79d638b2dca7b315f365e9d66a"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/lust.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "ddf926a74f8a88d3ad2f4deddd38debae915136e97de66725395ed8d707f9ce0"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/panic-grief.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "a4508723b2263768ba6f3f77faccce3f01479c483b4ed7931a4c219f6fa968b8"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/play.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "0614dea467bfcb058d5b79b635becb01ec5d320b05388a9c358e19f6169140e7"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/rage.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "7d866f1522c5b1b46f307f46074e3c91da8fdb6e1dc29cc379c19e085c46291a"
+    },
+    {
+      "source_path": "app/public/images/patients/juanita_delgado/seeking.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "4733abb0dcd9151f613d049733192f83d6c736240a69c1de308eddfb72d84682"
+    },
+    {
+      "source_path": "app/public/images/twitter-image.png",
+      "reason": "Artwork or binary asset: redistribution provenance not established",
+      "sha256": "496983190b67f7331c77989a650023c9083d6371122aaacecbd774202ff6739d"
+    },
+    {
+      "source_path": "experiments/.gitignore",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "20862ee970fb14a8933e029c3e8fafc0df71dbca9a2a875b24ebec3e32685140"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/definitions/bes.yaml",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "d43428fc5c2397fd028f5d848c03d2b9238d7082107b90a637e7371008556889"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/definitions/dsm5tr_l1.yaml",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "df0aaeb4ae1d62b93990c2d839f78981ae2203a98b7ca7db695c08f4c2371473"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/definitions/lpfs_bf2.yaml",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "ce7ccd344ac2925f660e5205966c3cf96744cce926fc795a83f2e831784bf600"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/definitions/phq9.yaml",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "412d99a54178998628f7cdc040f9e8c64f8c19112640fda738e154fc3e247187"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/definitions/pid5bf.yaml",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "b27d113473291b919c30efabb09b3c60023f9b785a0a34ce711a6ac81728d3e8"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/definitions/snap2.yaml",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "4191bd624bd9e26de9c642872e3521199cd12675fa35e81469c07920c699ae96"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/bes.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "38ba3ce244c143adc6ab6033ba95af6c4047419d28c5a41e5e498b0143e20fe2"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/dsm5tr_l1.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "e223937116b791bf90d1adbe140e640fe85daeab70194125e2b672cd5dd36901"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/lpfs_bf2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "a40323cffb2c2780b1df1ef430407c09f40dbf883c7218f716628df8bd3658ed"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/phq9.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "b315c2fd78cbda8c112d7e2dc9f0282828410ddb87d876caffed2657b5b68d4e"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/pid5bf.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "afcb04e15201e4ac2f2517547d34b1389f3dfc1c71c68a0e526b911fadd711e8"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/snap2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "9c165bd5c3a3f8893780630f348e8d69bf5baa900c9f8b78854abb3990548162"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/bes.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "05073f28e823868ae80e1c049c1846e5003b59f5766e2538cd77456f44241d44"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/dsm5tr_l1.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "f3ab48a048603b3503ca8d503f23bed4caefaae4f98f901bdbc5bf4ada9b24db"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/lpfs_bf2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "b18a39dead66469909cb9aec2f7162a1310e0d4a662914e4199a0026b90f8e3b"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/phq9.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "e9e353ba2b068ab9c80ed7b56fe7b8af188116af4e6ac160ef801fd4d6b2dab2"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/pid5bf.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "b1f08ed0352205deb7d11401c5316628537f8e3a628356104aeee55c37a77782"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/snap2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "f908566c9ee58e5737aa0e428921426148de4cdbfa84c580e2ea02c4afd76e76"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/bes.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "3c615e955716654c2ca9d0d086c8b9a5a5d71904d0351c60147d261decef426c"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/dsm5tr_l1.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "46c2a9fe2fdd36bbf26868aa6911e98a61f988f64ed9f036c8e6600ca8c32b40"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/lpfs_bf2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "8adbbe3d6c6d5510c3f4a522bebf97a8e1d93eab1bbb4b926447c9e2ed24c78b"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/phq9.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "cc2d3e95ca3e2afc20e913d818f517ee78a3d2f6515f0f31d17abddc77100f9a"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/pid5bf.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "3fe640da80e134a7e174c0399bfa531af295f3e9b11eb803771cd8880b962523"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/snap2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "bb802acde9afe998da069df1d8f43097fd82789e342caa593b21a1af15b86ad8"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/bes.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "cc35a5ee960b872de9f89f98df57cc0488fffe2524c07af768505d5eaeeeb7aa"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/dsm5tr_l1.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "d37a2088638aa4daba48e91260ac4096f4faa7c4a2c917f4aa394ccb35109d17"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/lpfs_bf2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "48cc7d94b97f7c662303c061b0b260569b10715960ef3fbed16867c8bdd39b06"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/phq9.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "af2bd67c19ede6bd1b4ec339ad00ae6fd93c36cfcc2e676eec34b526a9a1f219"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/pid5bf.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "976dc5692f65290d2d962ddb297995375338cda84d2900fac913c9c5acc0350e"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/snap2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "1838ebc7d2fb824f738ba9d779db15a84c9394c54453c6298c612efa70b6648f"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/bes.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "13eabbcefb03fcdcaf3459eba4fee0698f0a72cb3462a953b8fdad9b6f1c5bed"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/dsm5tr_l1.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "f2289c4037bbc75673226200b65a2dec5b7c84560b59fbe03ac37cbc40dc85a2"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/lpfs_bf2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "8783bf3551b37c14c740ec2adeaa07c48e776ae094243ccc0fee17522b620cd8"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/phq9.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "c021b30a565d180e03a1f462e7e0a150f62d8c132bcf1563e4c0ea5e15c50796"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/pid5bf.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "e9b9e3d64e458e3d3fc7143410dc09dac13c6fd3b915b6fe80bdb6f6e0d6da81"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/snap2.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "c1a1616c6488b8601d06fed7bb4385fb90186b1a38d71c22b175363c7391e3d3"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/support/scid5_pd_interview_alex_carter_001.pdf",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "920edd72125aa6c5026ea7f2a53d9c974695d25492cdbd3e2b26d22a2a508a10"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/support/scid5_pd_interview_daniel_isherwood_001.pdf",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "4a6416c69c67ef32dbf3904538e727f1de344b90666ff842b517131f32b256bf"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/support/scid5_pd_interview_juanita_delgado_001.pdf",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "6692f3ba2d0ad59bcddb97242ae8ccb602516e039c9e962784ed01fc12a3a912"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/support/snap2_scoring.xlsx",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "50552893aa90b51a923675eb1c78c878548a17691697c8284771d43f6dfbfeb0"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/support/snap2_scoring_juanita.xlsx",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "3483e5533ff042c784f4ab2ef902e1cbb0d42049e5b006beb191a5fbcac17862"
+    },
+    {
+      "source_path": "experiments/02_missteps/clinician_ratings/README.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "442675b3f847e18dda3c520a1b92fdb5c23924828d49fa1e591603f83d509597"
+    },
+    {
+      "source_path": "experiments/02_missteps/clinician_ratings/recompute.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "8e8b5046ee544fec8e33675fcf29b8d9bf7d638a3a0e5db55001569d36a7a96e"
+    },
+    {
+      "source_path": "experiments/02_missteps/clinician_ratings/workbooks/rater_1_completed.xlsx",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "14f94fd8551c9ab631da94810e34616e81a504b9eb6861950c26d9c1b6871008"
+    },
+    {
+      "source_path": "experiments/02_missteps/clinician_ratings/workbooks/rater_2_completed.xlsx",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "c49edb52d02f4509b539b620968bec5749c5250da89a2c683aba01998313e8d6"
+    },
+    {
+      "source_path": "experiments/02_missteps/expected_metrics.csv",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "257c1eb52afc0db5fd77b4848d9455ecaf5cf7baa1f6d135436057040af8754e"
+    },
+    {
+      "source_path": "experiments/02_missteps/predictions.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "697f62736f2ac9cedc842b12a0094ea92cd1483bee65d4d9028ffa009575d616"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/internal_transcript_condition_key.csv",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "4d5edf98642a53f4f3f497c343bb0917586021af8fc92ac8817e380a07ec45cb"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T001.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "739f764729881957d0e7838d4e7edfd70190c27173dbd929b70eefff567d5392"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T002.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "db3a1a9ffdf345bb929b37411aa270a452579eed3bd07e6f5b8d7dd847558970"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T003.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "a11e631fce70357cda1d63a4206923f46bd22c8e5cea84f8a76e926bdc22faa2"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T004.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "581692b8a72991c1c9c75d0acd14dca1caa8d9e6f58f5520bdc2aebed3497d5a"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T005.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "b419b7bc39bdb52f957814ecba49b82a1105d28fb5a071ca98505a217ad922ff"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T006.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "8f489af01fae711da5eb97fd586903b4ffd78bbd0f1b1ba2af731f9416eb599c"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T007.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "8aadf578b1e7dac71b40dd279bf61be1feb956597b139b2909f77fe4b5fa99fe"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T008.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "8d57938be4a5a502edbea104a17e53927447f51f5960cb2df0e5add844ca1932"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T009.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "2bc909ef0d0bd24eb52a0e48042abcaaf22e2d750c99002331d8359e13e2407e"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T010.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "53865aca986c2ac3218480efeda91a5b168dbc06d17df613991c296810402f5f"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T011.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "42fee2cc957cb3d67a66befea8497f3c5aaf77072b75aa8cc578beedfcd73990"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T012.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "a315901ac23e87b1a767e8e8247349453a3e2b3529414ed6f9d5db06823ac48d"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T013.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "d8be6835f315c552ff80291e7305e2b481a68e90b95852b90dace68f12d8234c"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T014.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "d72ae7a3acc5cdd4d6b7160313244a883f232daf118a7be98ac8c0990bcb1cf7"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T015.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "89db7a7482b075cbd4ce1585b2fac2191156986d90344b8b8549fadf6c050c22"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T016.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "58e22f6595cca0a1add41fcc6a51730b36a9c232e658c81e89cf5ef68d4fb43f"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T017.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "901f56d18d7697d8e9f565027c6fa6ac6c86a5ee663dfa1265bdc2065abf94df"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T018.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "0af529633c85425414904f353877db0d7b2dd3e9dea1cb9a7472912c001a1a7c"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T019.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "54f5ba9a257cd10cd9d5f61e6b2bcc186f4b1e4f4a16f9c719b90a621a4ada33"
+    },
+    {
+      "source_path": "experiments/02_missteps/transcripts/transcript_T020.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "9ba639e08b42e91be51df3dbea5a1db238a44b5c81ebdaf04899a3a3f964fa15"
+    },
+    {
+      "source_path": "experiments/MANIFEST.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "80e40a89d915f04c73ae27e47be95ba9b5acb62928012f3f27305d8ef538d429"
+    },
+    {
+      "source_path": "experiments/README.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "7f12477180c6a71b9da88a69df2acfa2f99cda5df08b0db34edf1a9708f6268d"
+    },
+    {
+      "source_path": "experiments/_analysis.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "b046a3162a48a09124606768ca26707cd6615a27e316a67256dce47dffd9ad6b"
+    },
+    {
+      "source_path": "experiments/evidence.tar.gz",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "14b3188340da276f097f0e4e618f170559eec7e4e53dd88e18257fd5f7709cdc"
+    },
+    {
+      "source_path": "experiments/expected_results.json",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "9770cf8f2ee6d3d4a5a06e965c6cfcb0ede25fb1c43a29750b721b25eed39490"
+    },
+    {
+      "source_path": "experiments/generation/README.md",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "249f01c5abd641bb5268401cecd4288ebea323da9365f346453628b554e9dab0"
+    },
+    {
+      "source_path": "experiments/generation/_worker.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "af98b3c988ef65b7428cbb2abb38a4f946fd00d390c5cb80e19ec530b2642488"
+    },
+    {
+      "source_path": "experiments/generation/requirements-generation-lock.txt",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "5d040047793b7467e3cab6dfe8d1d9bd954b4c91b9d20819c690d2e32f2bd878"
+    },
+    {
+      "source_path": "experiments/generation/requirements-generation.txt",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "4c483867edb06f6ad7f79424252a5c4ec891c493c06e958d65e3b21dddaf93ec"
+    },
+    {
+      "source_path": "experiments/generation/run.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "ca1e54d7473fa31828193892b89ddfc6982101a9de1679ee21d147c94e176a6e"
+    },
+    {
+      "source_path": "experiments/missteps.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "3480446c2df07232d253a8080f80d058cac2863038acd4d409fa4bfd5231ad36"
+    },
+    {
+      "source_path": "experiments/requirements.txt",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "01e08410080741c1f164e3b7459ea15db5966cef6629bfeb2691175f269efd00"
+    },
+    {
+      "source_path": "experiments/run.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "3fefbd8a39b408e75417fe46ab360cbf38f0835ba22b6fd7df84f34c7f720a4b"
+    },
+    {
+      "source_path": "experiments/scoring.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "9b5abea59e015b71b695b49d1145f76ce72187aff7a0b23d80f31fb285c3172e"
+    },
+    {
+      "source_path": "experiments/verify.py",
+      "reason": "Replaced with explicitly selected numerical projections and public analysis",
+      "sha256": "4ab85e0f0628e1cbff7e78918c60e35cc6b9cc55ce005227cbc46f24802ae544"
+    },
+    {
+      "source_path": "model/data/icd11_templates/6D11_5.json",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "7f0c1c82df1227c2e226eb7340ab4bbe328c2d29733f85e1494b802fe15bbf3e"
+    },
+    {
+      "source_path": "model/data/patients/alex_carter_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "eff6430fddd6678ba1d0b977f4611063b3449e76d26252baaf78fdc436d46c37"
+    },
+    {
+      "source_path": "model/data/patients/alex_carter_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "ed8d69a8e5b4e69f15bdea3280f2cc7d1bd37330862a10ab4f7612de6794da00"
+    },
+    {
+      "source_path": "model/data/patients/crystal_smith_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "19dca50e3639b3f2478b34327b00b5859f554f7c852c15b50670a8bca36c88c4"
+    },
+    {
+      "source_path": "model/data/patients/crystal_smith_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "6a566342b94bce41df1c13b627164f82f3b310db45b7ad716d830630a6481120"
+    },
+    {
+      "source_path": "model/data/patients/daniel_isherwood_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "a0464dd7263b23888bd858f9634670bade4a8ba6e478d10ef8b3bdc8c6c977d4"
+    },
+    {
+      "source_path": "model/data/patients/daniel_isherwood_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "de2416d3f14b804fba8112b2c8c68fc77d9e54f56f28a6f2f4fc360911af8684"
+    },
+    {
+      "source_path": "model/data/patients/jason_smith_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "aa2c432b9e38883dbe080efcac2ed6d863b9c5f023ac90480a81bbd59a119946"
+    },
+    {
+      "source_path": "model/data/patients/jason_smith_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "87ef4b9118f5f1c08fcd97e382961d8c560f9dc819f767f9326ccfe9229e8670"
+    },
+    {
+      "source_path": "model/data/patients/juanita_delgado_001.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "a8d3c6217aad0b1ca3c9e26d755b859f605090cd17b9bbb227f94f0a53d488f3"
+    },
+    {
+      "source_path": "model/data/patients/juanita_delgado_001_variant.yaml",
+      "reason": "Original study profile: casebook-derived clinical narratives withheld conservatively",
+      "sha256": "1a55ef2f3f56581cba3cf744d0acf0759e1be9dc5b0b0a44b405cca0f0e47879"
+    },
+    {
+      "source_path": "model/data/questionnaires/bes.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "d43428fc5c2397fd028f5d848c03d2b9238d7082107b90a637e7371008556889"
+    },
+    {
+      "source_path": "model/data/questionnaires/dsm5tr_l1.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "df0aaeb4ae1d62b93990c2d839f78981ae2203a98b7ca7db695c08f4c2371473"
+    },
+    {
+      "source_path": "model/data/questionnaires/lpfs_bf2.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "ce7ccd344ac2925f660e5205966c3cf96744cce926fc795a83f2e831784bf600"
+    },
+    {
+      "source_path": "model/data/questionnaires/phq9.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "412d99a54178998628f7cdc040f9e8c64f8c19112640fda738e154fc3e247187"
+    },
+    {
+      "source_path": "model/data/questionnaires/pid5bf.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "b27d113473291b919c30efabb09b3c60023f9b785a0a34ce711a6ac81728d3e8"
+    },
+    {
+      "source_path": "model/data/questionnaires/scid5_cv_questions.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "2a053c9dcdacd6bada6706699c0c7325dca50f31b3e7f92c506d928626fa7ec7"
+    },
+    {
+      "source_path": "model/data/questionnaires/scid5_pd_questions.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "7a57295219b12f3c52dbad56be3caea45645072fae3f232b35d7dd2310f58635"
+    },
+    {
+      "source_path": "model/data/questionnaires/snap2.yaml",
+      "reason": "Instrument or clinical classification content: obtain applicable permission separately",
+      "sha256": "4191bd624bd9e26de9c642872e3521199cd12675fa35e81469c07920c699ae96"
+    }
+  ],
+  "selected_projections": [
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/bes.json",
+      "source_sha256": "38ba3ce244c143adc6ab6033ba95af6c4047419d28c5a41e5e498b0143e20fe2",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/dsm5tr_l1.json",
+      "source_sha256": "e223937116b791bf90d1adbe140e640fe85daeab70194125e2b672cd5dd36901",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/lpfs_bf2.json",
+      "source_sha256": "a40323cffb2c2780b1df1ef430407c09f40dbf883c7218f716628df8bd3658ed",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/phq9.json",
+      "source_sha256": "b315c2fd78cbda8c112d7e2dc9f0282828410ddb87d876caffed2657b5b68d4e",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/pid5bf.json",
+      "source_sha256": "afcb04e15201e4ac2f2517547d34b1389f3dfc1c71c68a0e526b911fadd711e8",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/alex_carter_001/snap2.json",
+      "source_sha256": "9c165bd5c3a3f8893780630f348e8d69bf5baa900c9f8b78854abb3990548162",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/bes.json",
+      "source_sha256": "05073f28e823868ae80e1c049c1846e5003b59f5766e2538cd77456f44241d44",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/dsm5tr_l1.json",
+      "source_sha256": "f3ab48a048603b3503ca8d503f23bed4caefaae4f98f901bdbc5bf4ada9b24db",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/lpfs_bf2.json",
+      "source_sha256": "b18a39dead66469909cb9aec2f7162a1310e0d4a662914e4199a0026b90f8e3b",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/phq9.json",
+      "source_sha256": "e9e353ba2b068ab9c80ed7b56fe7b8af188116af4e6ac160ef801fd4d6b2dab2",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/pid5bf.json",
+      "source_sha256": "b1f08ed0352205deb7d11401c5316628537f8e3a628356104aeee55c37a77782",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/crystal_smith_001/snap2.json",
+      "source_sha256": "f908566c9ee58e5737aa0e428921426148de4cdbfa84c580e2ea02c4afd76e76",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/bes.json",
+      "source_sha256": "3c615e955716654c2ca9d0d086c8b9a5a5d71904d0351c60147d261decef426c",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/dsm5tr_l1.json",
+      "source_sha256": "46c2a9fe2fdd36bbf26868aa6911e98a61f988f64ed9f036c8e6600ca8c32b40",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/lpfs_bf2.json",
+      "source_sha256": "8adbbe3d6c6d5510c3f4a522bebf97a8e1d93eab1bbb4b926447c9e2ed24c78b",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/phq9.json",
+      "source_sha256": "cc2d3e95ca3e2afc20e913d818f517ee78a3d2f6515f0f31d17abddc77100f9a",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/pid5bf.json",
+      "source_sha256": "3fe640da80e134a7e174c0399bfa531af295f3e9b11eb803771cd8880b962523",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/daniel_isherwood_001/snap2.json",
+      "source_sha256": "bb802acde9afe998da069df1d8f43097fd82789e342caa593b21a1af15b86ad8",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/bes.json",
+      "source_sha256": "cc35a5ee960b872de9f89f98df57cc0488fffe2524c07af768505d5eaeeeb7aa",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/dsm5tr_l1.json",
+      "source_sha256": "d37a2088638aa4daba48e91260ac4096f4faa7c4a2c917f4aa394ccb35109d17",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/lpfs_bf2.json",
+      "source_sha256": "48cc7d94b97f7c662303c061b0b260569b10715960ef3fbed16867c8bdd39b06",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/phq9.json",
+      "source_sha256": "af2bd67c19ede6bd1b4ec339ad00ae6fd93c36cfcc2e676eec34b526a9a1f219",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/pid5bf.json",
+      "source_sha256": "976dc5692f65290d2d962ddb297995375338cda84d2900fac913c9c5acc0350e",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/jason_smith_001/snap2.json",
+      "source_sha256": "1838ebc7d2fb824f738ba9d779db15a84c9394c54453c6298c612efa70b6648f",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/bes.json",
+      "source_sha256": "13eabbcefb03fcdcaf3459eba4fee0698f0a72cb3462a953b8fdad9b6f1c5bed",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/dsm5tr_l1.json",
+      "source_sha256": "f2289c4037bbc75673226200b65a2dec5b7c84560b59fbe03ac37cbc40dc85a2",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/lpfs_bf2.json",
+      "source_sha256": "8783bf3551b37c14c740ec2adeaa07c48e776ae094243ccc0fee17522b620cd8",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/phq9.json",
+      "source_sha256": "c021b30a565d180e03a1f462e7e0a150f62d8c132bcf1563e4c0ea5e15c50796",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/pid5bf.json",
+      "source_sha256": "e9b9e3d64e458e3d3fc7143410dc09dac13c6fd3b915b6fe80bdb6f6e0d6da81",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "experiments/01_questionnaires/results/juanita_delgado_001/snap2.json",
+      "source_sha256": "c1a1616c6488b8601d06fed7bb4385fb90186b1a38d71c22b175363c7391e3d3",
+      "projection": "Numeric answers and scores; no wording, interpretation or scoring keys"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_01/phq9.json",
+      "source_sha256": "1540879cc8ea463ef6352f27d5facc225841edd32e3f1c52b71aed9bbfc7b817",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_02/phq9.json",
+      "source_sha256": "c647647999151fbed6d4ce8ac925e813aa8a501677b919ea8db7d6702d7db647",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_03/phq9.json",
+      "source_sha256": "33401ed904998a03c15558ac01aecc5da89f211a7c3b161099793e1cb8d31751",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_04/phq9.json",
+      "source_sha256": "79f8e37dbd39edc13bca2d82de6c0cee2032d015d7db3d1827eb5e7bd3664c10",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_05/phq9.json",
+      "source_sha256": "11d40360a22578df1183d40d8551f140f3a10844b3d85707ec5e1272c4018771",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_06/phq9.json",
+      "source_sha256": "e3106b12e73a3b7bcff21bbcbda5c710363bf25ac8cdbc272bca612df6b5e5b9",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_07/phq9.json",
+      "source_sha256": "dca316c1f12e3b4f031cf8f377b39a5c8851cceff99772cacde329c080821972",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_08/phq9.json",
+      "source_sha256": "3edc43482233195442b6a587148fd0d3cab0472986ad69b7064f75615dfee617",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_09/phq9.json",
+      "source_sha256": "fc7cf737183cd3945393912be1ac499a825f16979cf1be665ea9afc18dab0e43",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_10/phq9.json",
+      "source_sha256": "9f143dfc6e8ce83a7f53b20bd175254912d5426efd47767f5460c4ee8d5e0f04",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_11/phq9.json",
+      "source_sha256": "f5f60755a2b6b29f9be2c6ab878d96a880d7962980066a9681f8c35e0548f141",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_12/phq9.json",
+      "source_sha256": "4da2952c268bcefed2c65c0852275b5636e999a30b55b27371936cbd9736030b",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_13/phq9.json",
+      "source_sha256": "a88cbc77d9d7e59fc7cc3bc98497ab42d401f102fd16ccdd8363aa815083c098",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_14/phq9.json",
+      "source_sha256": "1147a4b80f2da681392a310cb2308a1bd8c819febd62d036ae33f78c75f9d431",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_15/phq9.json",
+      "source_sha256": "4b9bb7992b13ebcb29b2a33ac7a6b6ae1a2e5a9c26f05a18dd40502ecd5d7d45",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_16/phq9.json",
+      "source_sha256": "18c5d875a41f375413a6cb0b25e8a419d9ecd253ffda2162a4c20ccf236fd0d5",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_17/phq9.json",
+      "source_sha256": "9df864eaf95098b6382e5d115257163593ccb09ed0d3ea80dbbc2a04055dc2af",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_18/phq9.json",
+      "source_sha256": "d72dd72cf1615ba61f6549f81464c3c2ff26add78a90cd2981cc2fa9c3ca4a31",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_19/phq9.json",
+      "source_sha256": "e5dbbe92437f585808ce2ac7c2bc3f3c4f5054e539669407adec2d7025be69f5",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/alex_carter_001/run_20/phq9.json",
+      "source_sha256": "404e02e9857bd6650e02cc723a17f2bb70a41af4c1107c484824855b70caec23",
+      "projection_sha256": "985d0a484cfa07a10bd314e023125ee242e36b65af3f138d84ce00a4a1d917d3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_01/phq9.json",
+      "source_sha256": "041eb15520933d84858762c3c33e8d796264808cec9855109ab82c9ff1993a53",
+      "projection_sha256": "4116f22c607751dbd7090569b2f85237b4b606bb57f1725170b9c8a1c8e1129e",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_02/phq9.json",
+      "source_sha256": "989e93f72f9d0d1559903da89fd4bf25abe8ed93f7f3b9825ab978e64bebe44f",
+      "projection_sha256": "83f36ac855cb5c685b635ac254c9ea080e1330a4a5e33460af57f5acbb4f1f70",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_03/phq9.json",
+      "source_sha256": "e584520570c024f1b2e0a302ed6a2d15563847848ac9716529329584d57c9ee0",
+      "projection_sha256": "aeea5b63ca6c2e969479bb5dd62a05fe66825bd9ead8052bd5aaf48fde01c776",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_04/phq9.json",
+      "source_sha256": "491a79b9124db7a8f7caa0a7c21bc63e0f021b8316a756578570923ca761bf89",
+      "projection_sha256": "eda92595102b07e9f60f8a55df595afe60a520c5a3b034b8fc103940cfed1634",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_05/phq9.json",
+      "source_sha256": "838dda245d15d9f621921e93bb07005f429a212f8d90489d66d46bc7544e0234",
+      "projection_sha256": "b64eec8f8caf6cc3d76e84f348dddbdf5aedac66e061335732618da8bae107b1",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_06/phq9.json",
+      "source_sha256": "44b972b94e209fefb9379e3c64623967e2afdddc0723c477f6ff150ba684ce67",
+      "projection_sha256": "72f290a1225075a3fc04e9b9edc6ca928b844e1ac86816c47b46c16a39528490",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_07/phq9.json",
+      "source_sha256": "a3bd6af01d0609ff9fbc20d4b27b149d9eee4e0132479089e7e7f60dcb864cbe",
+      "projection_sha256": "a5a30fe35dd0ee9518527a5184636854dae295b0b87a01c20734b783d4172fde",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_08/phq9.json",
+      "source_sha256": "f2a8eec3e3f3aa857a9b776533c77f57f899888a032067f63154b29714fd158d",
+      "projection_sha256": "a5a30fe35dd0ee9518527a5184636854dae295b0b87a01c20734b783d4172fde",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_09/phq9.json",
+      "source_sha256": "dffb2f6394551852903395c2204104f4532e09529dd1820c41aa0bdc9e3b9a78",
+      "projection_sha256": "4116f22c607751dbd7090569b2f85237b4b606bb57f1725170b9c8a1c8e1129e",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_10/phq9.json",
+      "source_sha256": "78f35c364b85a91727ec23e08b728c265f4d12003a6c984f429d305b4df8fc4f",
+      "projection_sha256": "9c05c79c1349c5977d1c6faffce10e3a17e198d27b4623c2e7805820f8167869",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_11/phq9.json",
+      "source_sha256": "a854c8a6bf99ea8a201128f9b5bb767ee670f307891f1337de9a5cb1f24acb2a",
+      "projection_sha256": "42816cbf26d2837a28c98512fee36bb18140cfd860f56f34f3897fbe1bdab8de",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_12/phq9.json",
+      "source_sha256": "08ff7610c1bb81442c03756aa71bff38cffd840b8beabbe6bac7e554c6c71799",
+      "projection_sha256": "42816cbf26d2837a28c98512fee36bb18140cfd860f56f34f3897fbe1bdab8de",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_13/phq9.json",
+      "source_sha256": "8493f7ba10255eae7eea4b7b8592433d61e70d465d6599d98566a15bd2d8cc81",
+      "projection_sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_14/phq9.json",
+      "source_sha256": "15f2cdde86ed2ccb5c55c46d7f705311f514cd2e6566651c6ab0169e3eca437b",
+      "projection_sha256": "42816cbf26d2837a28c98512fee36bb18140cfd860f56f34f3897fbe1bdab8de",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_15/phq9.json",
+      "source_sha256": "b21b1c0e5012d23011bc8fdcb7c9d2db95544760c1b752a1a5dd55480661d127",
+      "projection_sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_16/phq9.json",
+      "source_sha256": "c8409a32e540d975e5f2b6db5a805e1bcc2ee81c380d98a3d85b8bc1b3b98b5b",
+      "projection_sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_17/phq9.json",
+      "source_sha256": "ea28d24ab9458173883c814d27dd689a7552426034406b3c8ee20a01fd7570d0",
+      "projection_sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_18/phq9.json",
+      "source_sha256": "462603395dc118d2b5179303914a9012d056484ef5381f1f9607adb5aedc98db",
+      "projection_sha256": "a837a969ce7c7c5fe8f395847e4f1b7d92ca8d9c106302fd30b482a32b7c64f8",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_19/phq9.json",
+      "source_sha256": "bb580e68c8ca4253ad3b0c4d2d4bad1b2d5958337160c334b483b0798e9d7317",
+      "projection_sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/crystal_smith_001/run_20/phq9.json",
+      "source_sha256": "380fa88769942c5694255935fe3de9fda49469a273803c91df9a96ce2d35d455",
+      "projection_sha256": "82bd2c326a3150d5b3281f3d2936e279380af4601a9336dd9261771e029455b6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_01/phq9.json",
+      "source_sha256": "1fbe689087ed684f8dc13b5a5dc1c88d31850b3c5ff632111683ddfea994dace",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_02/phq9.json",
+      "source_sha256": "323fe06c889ead084fa127b88e8f08beda276612bb9ee4bf186bff7b6d409d76",
+      "projection_sha256": "d1a8514f953731428f24f662afe482640ffbe760205f3b30933841a5471a31d1",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_03/phq9.json",
+      "source_sha256": "c71027d7a791eb9deb4943d0549f78ea0804fda56cfa3a180bf9cf8fbfdb4a34",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_04/phq9.json",
+      "source_sha256": "dbb1c1fdc8aa8543670f6372df8cf7787478a3fb2a2f52bca71f0374c6551a7b",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_05/phq9.json",
+      "source_sha256": "29bb19e13eb6ca74ae0ccf7a44464d43efd2e6f0c6e766a78868445f91be114f",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_06/phq9.json",
+      "source_sha256": "4da2f5d609840f07bae611984b0e1eac6cf18ec07a86a98201b9b4465f903d75",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_07/phq9.json",
+      "source_sha256": "8dc00f449d83c7d2ab38ca024b2c3ce729e176202416d182be0db121f6178436",
+      "projection_sha256": "d1a8514f953731428f24f662afe482640ffbe760205f3b30933841a5471a31d1",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_08/phq9.json",
+      "source_sha256": "7b5b309584d26f766759f26aeccf8b242f8ed8be24874bed625209d2a7d2e96e",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_09/phq9.json",
+      "source_sha256": "adefad9b5d888df9c297da652eb676773d9e0eaec86d760a0fb313e78ed7c1ac",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_10/phq9.json",
+      "source_sha256": "021356a3913a9f18850ac2a4d4da7c6631149ca37086d1349bbaea3870eafa2c",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_11/phq9.json",
+      "source_sha256": "db6133832501dbb9498bc9c3e246a193832959db86f7f9255b68f9fbf74e8715",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_12/phq9.json",
+      "source_sha256": "d67a6b8e630f7b4e335b7c404ed3de9542ba9e9bca3a7eba83dcfeb6ac7d045e",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_13/phq9.json",
+      "source_sha256": "dd9867cb9a7d11af07923a3748b3fa9d1ded292e1c0541203ac5a9dfc1b35d43",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_14/phq9.json",
+      "source_sha256": "c751d2a6f08db10c5105e83acaf8acf595654d8f89f8d2789f88866858a4cec2",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_15/phq9.json",
+      "source_sha256": "db8f960b69db35d30ed5e355489bb92ac24eb8599e163e238118223506282e7a",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_16/phq9.json",
+      "source_sha256": "60b62267d988f9b04ba94a1e17352506109e7c440d448d7ff1ad792222946516",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_17/phq9.json",
+      "source_sha256": "cee18623f1fee88607e4c680c4f8986a7fc9cb8759fe0c286e470ce1c979f3eb",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_18/phq9.json",
+      "source_sha256": "1b456e9dd22d846d1a0c4e7b71da68a4a8962541c372913903953a22ba156457",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_19/phq9.json",
+      "source_sha256": "ae1e48d19106d961d3edf924313db9363a9097d12bb576ee367d3cb1c67eeb1e",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/daniel_isherwood_001/run_20/phq9.json",
+      "source_sha256": "88c69ce740b8d858876455d854e904674abc900f7060d5cb3f17ace5b6226357",
+      "projection_sha256": "b7431b198dc40695d79bee701fb89aac618046ccec1755a0ad9a172d27bde467",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_01/phq9.json",
+      "source_sha256": "43fd41c6a72eff2c631a646085ef53f06127bce0b227d869f43dfe845b65c70e",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_02/phq9.json",
+      "source_sha256": "0775ef2eca88499155746436c738cebaa14916a811a3d02bc45d4b76e2e0c924",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_03/phq9.json",
+      "source_sha256": "369309df16a24fd4c95dd53f1f5474bbef0935a3ac682ccb83a4ad020c26a3d4",
+      "projection_sha256": "584092c5593ad9e2a5c7191f5c255db510e59b932e27c89c6b53a320d94432bc",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_04/phq9.json",
+      "source_sha256": "7374b1fc6b0d9e2d1d4190d7edb8ae52e8ba507c060ad8dab1869133f5859c5b",
+      "projection_sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_05/phq9.json",
+      "source_sha256": "65b5a3647818e43bb214f5f6daef4ec85773da1ab82b1cca52fa063bcc17c6a3",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_06/phq9.json",
+      "source_sha256": "2419cc18c99080c8ad78fd2fc4f8ac4ddf0ba7029fd5f117245b296c1c466072",
+      "projection_sha256": "de7c25784df1234819c8aaabc738759518c8383cf780ee856426dd9f0062d203",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_07/phq9.json",
+      "source_sha256": "b09d37b0132a81deed57fea95ab07034d4b62fe5d5cb79297db4f85c961ab51d",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_08/phq9.json",
+      "source_sha256": "406856b724134d78030ef9f4af46ff846c60aa42165227e21d9b3330e6d32c2e",
+      "projection_sha256": "422b16419de4105b696679dc092b0c0f588aa1399ab085a80e2e347bb18a942a",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_09/phq9.json",
+      "source_sha256": "152b444ad8effaf8681f0f7ce93b5ccd532452b33163f72c7d798f6d968cbebb",
+      "projection_sha256": "de7c25784df1234819c8aaabc738759518c8383cf780ee856426dd9f0062d203",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_10/phq9.json",
+      "source_sha256": "d26a584558689ab6f8b01f0506d6819bb687a77c20aa5b30d9c3c121d916d391",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_11/phq9.json",
+      "source_sha256": "ae19f9e439976a84b36e740a92e9153756bafc9c6294d5e3fa404f7895d2f65e",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_12/phq9.json",
+      "source_sha256": "e11212f46e0c54df419fd0bf5a5179cb39b11e4aaac1c6c2f8096addebf75ada",
+      "projection_sha256": "584092c5593ad9e2a5c7191f5c255db510e59b932e27c89c6b53a320d94432bc",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_13/phq9.json",
+      "source_sha256": "ce52f299bf630519eb1a1c558092a5bdc27e6947e6e4b7639a8683d851a914bb",
+      "projection_sha256": "584092c5593ad9e2a5c7191f5c255db510e59b932e27c89c6b53a320d94432bc",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_14/phq9.json",
+      "source_sha256": "176a1c9ae37b43e2148583432d6aa582381a88f5d96e12745f5609ae8564245a",
+      "projection_sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_15/phq9.json",
+      "source_sha256": "6d8a78aef4f360434bd51ee2e0b6aecfc80544734f6214ebb3d079f9cbe83536",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_16/phq9.json",
+      "source_sha256": "44bc28ef30d0402e14626fde4edaf2dc90c9b5642774212befe0ed3753fb18b5",
+      "projection_sha256": "124b7f2dde65c8b1779c407e269b3ec9bfab9b92bf4fb055139a4c721ebf0ae6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_17/phq9.json",
+      "source_sha256": "0c8d1dc2c4935941303c6fcebf5bb35e592bdfd131a201bde6393634c16e7737",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_18/phq9.json",
+      "source_sha256": "b6c008e55ea0f326c48fb38bfbdbcbade24461075ea66a2323922d9a117ff4a4",
+      "projection_sha256": "92f3925b9aa73e67848e9f2245b1660fd7e663f9966f5bcfe5422fd140f93f8d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_19/phq9.json",
+      "source_sha256": "8f2f2a3a98f33a2be30a2ff12c7ceb37390dedb52ec48bad685d38610bd3fb7e",
+      "projection_sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/jason_smith_001/run_20/phq9.json",
+      "source_sha256": "dd7194f1a19bfb18625a6cc78d14003149f83fbc2b15f2c6fa26f36901c6c080",
+      "projection_sha256": "b77b16eb41c8d83fd039e04bc4894a0682323775545308d9fbbe8eb66b05b305",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_01/phq9.json",
+      "source_sha256": "e088c3f0cca6029076e94ac70e7a15c33c7dcbeecf5032a396ec2243fa52675a",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_02/phq9.json",
+      "source_sha256": "94918a701f9c4761518b18f1034bfe464076c4883bc800e7b4cb7e4e2bb2a8a8",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_03/phq9.json",
+      "source_sha256": "6271583a09cba8d4074f7505f8cb0d2d280e9ff1bd5f648a2e27680caaeffc02",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_04/phq9.json",
+      "source_sha256": "0e07777e555646460b6e458122519e9742fc583fa5f947bda5f0a1ee7c2823ff",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_05/phq9.json",
+      "source_sha256": "aeda1482697ccec1be961610a3917d9b9fdf39409a7f2506cfcc9b38ad5a990b",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_06/phq9.json",
+      "source_sha256": "a26824a0d29db64e3dc517746d7dad6e9434a071bdf21d5e5249aade287b13d5",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_07/phq9.json",
+      "source_sha256": "3c6f6b1fcbc67cc7ba00594571e9875b0f552456aa62a36802b08e562dd1331a",
+      "projection_sha256": "c35d3d0178cad4c0c0aeb7070313cef6e8862c886ee579398dddecb486c30be0",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_08/phq9.json",
+      "source_sha256": "c1febcb81711493799993ea85daa8085eecfac0c4a63ba848ae8807a3b72b620",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_09/phq9.json",
+      "source_sha256": "af77f344eba92f069d2bb4c1b4cae137bf1f6962be6b16e489b9efb4feed26b9",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_10/phq9.json",
+      "source_sha256": "ea2497598592585cd66c30497a310f38980f4115c7a28f45878e21ba1520a0ae",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_11/phq9.json",
+      "source_sha256": "06ca28601ed8a9db94a7b6680b478e1f68975adc66b17786d473ef87f9c3f7d4",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_12/phq9.json",
+      "source_sha256": "4aafcb2f2b6137ae93de92e945500431a092da63938cbad9d1d8bff81a89cadd",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_13/phq9.json",
+      "source_sha256": "c5040a751cee33d5a702e998cc2986c78b0c1b3753dd67b82f35347e432a7e8b",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_14/phq9.json",
+      "source_sha256": "6d72d1f1c9d24cd72bafffe2a3a8a55686c713be7001c1531be85e8a61ce7c5c",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_15/phq9.json",
+      "source_sha256": "01c2bbaf23ff48d506ddc7811ab3a9937225e748d77bb7be3458b42c02a08ae6",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_16/phq9.json",
+      "source_sha256": "1a27d70f96e4949f93a8daf29c3e0621fb40dfc7081f450fc3b5b40255ce08c6",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_17/phq9.json",
+      "source_sha256": "90c36ce7cc4be1d6d5850d6692c2f97e7c05d8e14f47e58b52bcd5501bd77b7d",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_18/phq9.json",
+      "source_sha256": "4bd1bc6561748ba6d34f0fd19313482bdd4d9295154a270b6bf1b4d8a624748d",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_19/phq9.json",
+      "source_sha256": "182fbd6b6daecb586b6af4a82888be420425c2524fb0b51fe0b39e7eaff45516",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/reviewer-tests-openrouter-2026-09-27/phq/juanita_delgado_001/run_20/phq9.json",
+      "source_sha256": "ae28748594461424a70e3570e79b941481c146bb6b4b2c9f7146b3a69ef9a9c2",
+      "projection_sha256": "dd2f4a5aba43afc4bb85e91099cf135552e0a2f0f05f050912f3d043930e2351",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-comparison-run-2026-09-29/review/export-001/private/mapping.json",
+      "source_sha256": "4ae3946cf2308614d9340bff804f7402498412bb3d1e830c96a90160ec95aff2",
+      "projection_sha256": "722b78b07779035ecc77645b920c80fee44caba9c34deeb778a1b1f72a670752",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-comparison-run-2026-09-29/review/ratings/evaluator_a.json",
+      "source_sha256": "8c35922caab4cdfb62f8db2b27d3bc8a75d3c0e0b1d2d4e565777b480b8e6542",
+      "projection_sha256": "c13c9136331701b5bd0cd79db92e84b2261e5de108eda28fc77423f2305b6e6e",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-comparison-run-2026-09-29/review/ratings/evaluator_b.json",
+      "source_sha256": "0fdd8f41632de95ffe43e37cfbf290941e1cc67a3e4146c856d83f391f9c544b",
+      "projection_sha256": "98844cab8e45be04d63877e8a4bee92cf98872fae07ebecf1018cfb7c2c604f9",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-comparison-run-2026-09-29/review/ratings/adjudicator.json",
+      "source_sha256": "a31a9aec4d5b19d5dd4fe49e6a984b6342cd1cf3fe9193476694ec30d66548e5",
+      "projection_sha256": "10904ae4da9e0600c8d24aeda3f2dc5c40a528b94ad6af89c34a63dc4edd5bb6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-length-stress-2026-09-30/review/private/mapping.json",
+      "source_sha256": "d9642679caa54571260c2694c6d3ee98efcf2a50a0c4f6e677f9836e7a2d9de0",
+      "projection_sha256": "d9642679caa54571260c2694c6d3ee98efcf2a50a0c4f6e677f9836e7a2d9de0",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-length-stress-2026-09-30/review/ratings/a.json",
+      "source_sha256": "97d2fc985dde2a87aaf894f42f22bff449bf1487cd3846417c4ee96139a2d4b0",
+      "projection_sha256": "6b48038a3eaaca2b14d0d399f05fb31c8fbd3846caf9bd203ca70ffa5aa16810",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-length-stress-2026-09-30/review/ratings/b.json",
+      "source_sha256": "4776e9adaff3efe6dd21bdc53cbcc60e1f49383231b67a95a42b7f9ef3bd067f",
+      "projection_sha256": "6b48038a3eaaca2b14d0d399f05fb31c8fbd3846caf9bd203ca70ffa5aa16810",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-length-stress-2026-09-30/schedule.json",
+      "source_sha256": "7c9cb19cad4eed67dc187690e5a2e49233649197aca4fadbd91baf73789f89de",
+      "projection_sha256": "52449c78d77423ed84dc91ff3423bff6cc955e0e581ceb9e7fda66ea57f91b05",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/memory-length-stress-2026-09-30/runtime-02/answers.jsonl",
+      "source_sha256": "35e7096e9bd90ed18a164d99002c6e19c721e80bd2b78852970fafa496522fd9",
+      "projection_sha256": "3cb20a1038e4896d35a8e14365ec5b0053f536386f89e89501865317572d078f",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/openrouter-compression-length-2026-09-30/review/private/mapping.json",
+      "source_sha256": "19fcae8259af2e49fb360a8088a2d107861afd49ae5ec7e68ddf944e73d4625f",
+      "projection_sha256": "19fcae8259af2e49fb360a8088a2d107861afd49ae5ec7e68ddf944e73d4625f",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/openrouter-compression-length-2026-09-30/review/ratings/a.json",
+      "source_sha256": "ec277cd2c9acf8196adc514ccd4965de2d4476f9bc60795c54e8bb446154226d",
+      "projection_sha256": "fd7d8315847c1825d3125eb680ff1bbc5179c843c0180293226cb5bf5ab283ca",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/openrouter-compression-length-2026-09-30/review/ratings/b.json",
+      "source_sha256": "97727eab3cd8cb0b4c19f90ac689ca9741857795499e14e85eccc13c46e7bc34",
+      "projection_sha256": "fd7d8315847c1825d3125eb680ff1bbc5179c843c0180293226cb5bf5ab283ca",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/openrouter-compression-length-2026-09-30/schedule.json",
+      "source_sha256": "b4116067f5c233e986dbba8e83fe1c3a38786d85f78c064e21661ccb2618ecfd",
+      "projection_sha256": "f66a0aceced729ca2240013686b2f5730256763ebf3ba7a73c4d24c4605a9994",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/openrouter-compression-length-2026-09-30/runtime/answers.jsonl",
+      "source_sha256": "143ec9ead12d16b9e4f746509523d265b8bdf100a7a651477c476b1e9e5c7122",
+      "projection_sha256": "dc4988c9f9ab21dd4678a5623cb949f910af1684c99811e3751e01f63945ffdd",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/regional-memory-compression-2026-09-30/review/private/mapping.json",
+      "source_sha256": "1ebd97a57a28a133acdbc10996e09a68a4f3a91becf0e6e6ce6792a24e63dfc3",
+      "projection_sha256": "1ebd97a57a28a133acdbc10996e09a68a4f3a91becf0e6e6ce6792a24e63dfc3",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/regional-memory-compression-2026-09-30/review/ratings/a.json",
+      "source_sha256": "86b71d4b93800f888498a0bafd573367e12ae2ab3c8e3dd2e388c310b941d8f7",
+      "projection_sha256": "b2a57c5d439a3ba55ba1ca358711d40cd6cc41e8570cbc18377b48eb387cbc28",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/regional-memory-compression-2026-09-30/review/ratings/b.json",
+      "source_sha256": "52a5be4efef75d080473a6f84a31d8c7ca9936e0b7294048a98a3523d7e65c76",
+      "projection_sha256": "b2a57c5d439a3ba55ba1ca358711d40cd6cc41e8570cbc18377b48eb387cbc28",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/regional-memory-compression-2026-09-30/schedule.json",
+      "source_sha256": "a84499b3537d933a9a883afda7b39cd84836e61f45d92e4d5311e21c72a533f5",
+      "projection_sha256": "a66463de3e27b2463d09bad5bab17dcb5ad1d2ac45a41ce8133e577544019c3c",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/regional-memory-compression-2026-09-30/runtime/answers.jsonl",
+      "source_sha256": "f69546428dc73656ce5e8ec01ccc0edc5b98aabf2445356879897fe44dae4a9a",
+      "projection_sha256": "9a01df07250fc552bdbb1fb289243f03959bcd6c689197368c56d855356f5b4d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/structured-regional-comparison-2026-10-01/review/private/mapping.json",
+      "source_sha256": "529f1845e32e466774f1bd4d146a651d35b67d750fb814e03670a72f1918960c",
+      "projection_sha256": "529f1845e32e466774f1bd4d146a651d35b67d750fb814e03670a72f1918960c",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/structured-regional-comparison-2026-10-01/review/ratings/a.json",
+      "source_sha256": "882374235fd5c33017bc29106261db03c267d6ecb0ffcbe1e02ed95ea59e6500",
+      "projection_sha256": "3649ad9e24cac097bb0521df069c1174950fb282f1d3b7c76b38ac8f9490d126",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/structured-regional-comparison-2026-10-01/review/ratings/b.json",
+      "source_sha256": "08e0293605318adb9a99d8f8725344f73695a8a54687d9fd5a9e0da33c293e97",
+      "projection_sha256": "3649ad9e24cac097bb0521df069c1174950fb282f1d3b7c76b38ac8f9490d126",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/structured-regional-comparison-2026-10-01/schedule.json",
+      "source_sha256": "7d3d0a12b4eaeac7f4ef4066f7d8e36c2f570d14bc1fcf39f17c53462c3e275a",
+      "projection_sha256": "d3b76772a6f6645a3a9fc25ec9074d83211728e5065115f4dc0272be638f23f1",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/structured-regional-comparison-2026-10-01/runtime/answers.jsonl",
+      "source_sha256": "d2137888d18d456cdf6a8481d41802824185924da228bf1153288530b1d82bfd",
+      "projection_sha256": "08b44077688743eff65c85cefcce6b6577613d4604cb6af3e78347b20ebb079d",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/full-saved-memory-comparison-2026-10-01/review/private/mapping.json",
+      "source_sha256": "6b77fdd4e66b0db88928a9e2aa421f74998b821464d170dcf01cbb5618c912c6",
+      "projection_sha256": "6b77fdd4e66b0db88928a9e2aa421f74998b821464d170dcf01cbb5618c912c6",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/full-saved-memory-comparison-2026-10-01/review/ratings/a.json",
+      "source_sha256": "05620073619e91224f6a8487cb3dda9f0ab9c0dd27045b82d044bb2beb10f5ed",
+      "projection_sha256": "42fdfa7be7d8aec527b66ba4b88d4bc5348f3f254430e3a3e4ad753086eba861",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/full-saved-memory-comparison-2026-10-01/review/ratings/b.json",
+      "source_sha256": "05620073619e91224f6a8487cb3dda9f0ab9c0dd27045b82d044bb2beb10f5ed",
+      "projection_sha256": "42fdfa7be7d8aec527b66ba4b88d4bc5348f3f254430e3a3e4ad753086eba861",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/full-saved-memory-comparison-2026-10-01/schedule.json",
+      "source_sha256": "1749778be4adf2379ff3e6360259b17dbc2d0a61c2d94a40f3f573e93b47dfb8",
+      "projection_sha256": "d459f554ed0287e60de350ff23aff615ef74344057335e5ee53ce65cb06e35cd",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    },
+    {
+      "source_path": "evidence.tar.gz!/outputs/full-saved-memory-comparison-2026-10-01/runtime-02/answers.jsonl",
+      "source_sha256": "1e640836789d061b0e369d0ebc09c24e74de54c4379e1686dad0459d0b50923a",
+      "projection_sha256": "cba62cea195e70fb24f6ddcacef14d06c84239015d370f3b6433942183c549fa",
+      "projection": "Selected numeric/categorical fields only; free text omitted"
+    }
+  ]
+}
